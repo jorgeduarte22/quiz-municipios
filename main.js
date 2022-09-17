@@ -1,8 +1,15 @@
 window.onload = (event) => {
-	var state = document.cookie.split(',');
-	state.forEach(m => selectMunicipio(municipios[m]));
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
+	var municipiosList = document.getElementById("municipiosList");
+	var state = [];
+	if(document.cookie) {
+		state = document.cookie.split(',');
+	}
+	state.forEach(m => {
+		selectMunicipio(municipios[m]);
+		addMunicipioToList(municipios[m].name);
+	});
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -11,6 +18,7 @@ window.onload = (event) => {
 			if(municipios[guess] && !state.includes(guess)) {
 				addMunicipioToState(guess)
 				selectMunicipio(municipios[guess]);
+				addMunicipioToList(municipios[guess].name);
 			}
 			municipioInput.value = "";
 		}
@@ -19,6 +27,7 @@ window.onload = (event) => {
 	borrarButton.addEventListener("click", function(event) {
 		state.forEach(m => deselectMunicipio(municipios[m]));
 		clearState();
+		clearMunicipiosList();
 	});
 
 	function selectMunicipio(municipio) {
@@ -35,14 +44,25 @@ window.onload = (event) => {
 		});
 	}
 
-	function addMunicipioToState(municipio) {
-		state.push(municipio);
+	function addMunicipioToState(id) {
+		state.push(id);
 		document.cookie = state;
 	}
 
 	function clearState() {
 		state = [];
 		document.cookie = state;
+	}
+
+	function addMunicipioToList(name) {
+		var ul = document.createElement("ul");
+		ul.classList.add("listItem");
+		ul.innerHTML = (municipiosList.childElementCount+1) + ". " + name;
+		municipiosList.appendChild(ul);
+	}
+
+	function clearMunicipiosList() {
+		municipiosList.replaceChildren();
 	}
 }
 

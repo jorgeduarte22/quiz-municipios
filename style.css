@@ -92,3 +92,28 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+.card {
+	min-width: 300px;
+	margin-bottom: 10px;
+	border: 1px solid gainsboro;
+	border-radius: 5px;
+	text-align: : center;
+}
+
+h2 {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.list {
+	width: 100%;
+}
+
+.listItem {
+	padding-left: 0px;
+	align-content: center;
+	text-align: left;
+}
