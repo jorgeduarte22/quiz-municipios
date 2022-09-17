@@ -88,11 +88,11 @@ input:focus{
 	background-color: cornflowerblue;
 }
 
-.borrarButton:hover {
+.borrarButton:hover .borrarButton:active .borrarButton:focus {
 	background-color: indianred;
 }
 
-.sendButton:hover {
+.sendButton:hover .sendButton:active .sendButton:focus {
 	background-color: darkslateblue;
 }
 
