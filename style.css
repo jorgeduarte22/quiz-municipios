@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#municipioInput {
+	width: 300px;
+	line-height: 1.5;
+}
+
+.selected {
+	fill: brown !important;
+}
+
+.municipio {
+	fill: azure;
+	fill-rule:evenodd;
+	stroke:none;
+}
