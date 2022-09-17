@@ -1,19 +1,28 @@
 window.onload = (event) => {
-	var input = document.getElementById("municipioInput");
+	var municipioInput = document.getElementById("municipioInput");
+	var borrarButton = document.getElementById("borrarButton");
 
-	input.addEventListener("keypress", function(event) {
+	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
 			event.preventDefault();
-			guess = removeDiacritics(input.value.toLowerCase());
+			guess = removeDiacritics(municipioInput.value.toLowerCase());
 			if(municipios[guess]) {
 				marcar(municipios[guess]);
 			}
-			input.value = "";
+			municipioInput.value = "";
+		}
+	});
+
+	borrarButton.addEventListener("click", function(event) {
+		for(var m in municipios) {
+			municipios[m].paths.forEach(pathId => {
+				var path = document.getElementById(pathId);
+				path.classList.remove("selected");
+			});
 		}
 	});
 
 	function marcar(municipio) {
-		var mapa = document.getElementById("mapaSvg");
 		municipio.paths.forEach(pathId => {
 			var path = document.getElementById(pathId);
 			path.classList.add("selected");
