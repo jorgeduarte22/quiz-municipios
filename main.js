@@ -1,13 +1,10 @@
 window.onload = (event) => {
 	var input = document.getElementById("municipioInput");
-	var mapa = document.getElementById("mapaSvg");
 
 	input.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
 			event.preventDefault();
 			guess = removeDiacritics(input.value.toLowerCase());
-			console.log(guess)
-			console.log(municipios[guess])
 			if(municipios[guess]) {
 				marcar(municipios[guess]);
 			}
@@ -17,13 +14,8 @@ window.onload = (event) => {
 
 	function marcar(municipio) {
 		var mapa = document.getElementById("mapaSvg");
-		console.log(mapa);
-		console.log(municipio);
 		municipio.paths.forEach(pathId => {
-			console.log("PATH", pathId);
 			var path = document.getElementById(pathId);
-			console.log(document);
-			console.log(path);
 			path.classList.add("selected");
 		});
 	}

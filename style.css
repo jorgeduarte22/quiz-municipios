@@ -1,20 +1,94 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	margin: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Lato,HelveticaNeueBold,HelveticaNeue-Bold,"Helvetica Neue Bold",HelveticaBold,Helvetica-Bold,"Helvetica Bold",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-#municipioInput {
+h1 {
+	padding-top: 15px;
+}
+
+input {
 	width: 300px;
-	line-height: 1.5;
+	
+	background-color: #fff;
+	height: 31px;
+	padding: 3px 7px;
+	line-height: normal;
+	border: 1px solid #a6a6a6;
+	border-top-color: #949494;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+	outline: 0;
+	color: #111;
+	font-size: 13px;
+                
+}
+
+input:hover {
+	box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+}
+
+input:focus{
+	border-color: #e77600;
+	box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.map {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .selected {
-	fill: brown !important;
+	fill: lightgreen !important;
 }
 
 .municipio {
 	fill: azure;
 	fill-rule:evenodd;
 	stroke:none;
+}
+
+.borrarButton {
+	display: inline-block;
+	outline: 0;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+	border: 0px solid darkred;
+	font-size: 15px;
+	height: 31px;
+	padding: 0 11px;
+	text-align: center;
+	width: 100%;
+	min-width: 200px;
+	max-width: 300px;
+	font-weight: 500;
+	color: black;
+	background-color: red;
+}
+
+.borrarButton:hover {
+	background-color: indianred;
+}
+
+footer {
+    margin-top: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: gainsboro;
+    width: 100%;
+    text-align: center;
+    color: black;
+	font-size: 15px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
