@@ -1,15 +1,11 @@
+//I am ashamed. Please don't read this code.
+var state = [];
+
 window.onload = (event) => {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var municipiosList = document.getElementById("municipiosList");
-	var state = [];
-	if(document.cookie) {
-		state = document.cookie.split(',');
-	}
-	state.forEach(m => {
-		selectMunicipio(municipios[m]);
-		addMunicipioToList(municipios[m].name);
-	});
+	loadState();
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -29,41 +25,52 @@ window.onload = (event) => {
 		clearState();
 		clearMunicipiosList();
 	});
+}
 
-	function selectMunicipio(municipio) {
-		municipio.paths.forEach(pathId => {
-			var path = document.getElementById(pathId);
-			path.classList.add("selected");
-		});
+function loadState() {
+	state = [];
+	if(document.cookie) {
+		state = document.cookie.split(',');
 	}
+	state.forEach(m => {
+		selectMunicipio(municipios[m]);
+		addMunicipioToList(municipios[m].name);
+	});
+}
 
-	function deselectMunicipio(municipio) {
-		municipio.paths.forEach(pathId => {
-			var path = document.getElementById(pathId);
-			path.classList.remove("selected");
-		});
-	}
+function selectMunicipio(municipio) {
+	municipio.paths.forEach(pathId => {
+		var path = document.getElementById(pathId);
+		path.classList.add("selected");
+	});
+}
 
-	function addMunicipioToState(id) {
-		state.push(id);
-		document.cookie = state;
-	}
+function deselectMunicipio(municipio) {
+	municipio.paths.forEach(pathId => {
+		var path = document.getElementById(pathId);
+		path.classList.remove("selected");
+	});
+}
 
-	function clearState() {
-		state = [];
-		document.cookie = state;
-	}
+function addMunicipioToState(id) {
+	state.push(id);
+	document.cookie = state;
+}
 
-	function addMunicipioToList(name) {
-		var ul = document.createElement("ul");
-		ul.classList.add("listItem");
-		ul.innerHTML = (municipiosList.childElementCount+1) + ". " + name;
-		municipiosList.appendChild(ul);
-	}
+function clearState() {
+	state = [];
+	document.cookie = state;
+}
 
-	function clearMunicipiosList() {
-		municipiosList.replaceChildren();
-	}
+function addMunicipioToList(name) {
+	var ul = document.createElement("ul");
+	ul.classList.add("listItem");
+	ul.innerHTML = (municipiosList.childElementCount+1) + ". " + name;
+	municipiosList.appendChild(ul);
+}
+
+function clearMunicipiosList() {
+	municipiosList.replaceChildren();
 }
 
 // SOURCE: http://stackoverflow.com/a/5912746/1260526
