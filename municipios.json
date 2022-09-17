@@ -24,7 +24,7 @@ municipios = {
 		"area": 16.2,
 		"paths": ["path16"]
 	},
-	"los Alcazares": {
+	"los alcazares": {
 		"population": 16138,
 		"area": 19.8,
 		"paths": ["path184"]
@@ -44,7 +44,7 @@ municipios = {
 		"area": 311.5,
 		"paths": ["path148"]
 	},
-	"Archena": {
+	"archena": {
 		"population": 19500,
 		"area": 16.4,
 		"paths": ["path96"]
