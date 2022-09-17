@@ -9,7 +9,10 @@
 	</head>
 	<body>
 		<h1>¿Cuántos municipios eres capaz de nombrar?</h1>
-		<input id="municipioInput" type="string" autocomplete="off" placeholder="Introduce el nombre de un municipio"></input>
+		<div>
+			<input id="municipioInput" type="string" autocomplete="off" placeholder="Introduce el nombre de un municipio"></input>
+			<button id="sendButton" class="sendButton">Enviar</button>
+		</div>
 		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 	<div class="map">
 
@@ -585,7 +588,7 @@
 			<ol id="municipiosList" class="list"></ol>
 		</div>
 
-		<button id="borrarButton" type="button" class="borrarButton">Borrar</button>
+		<button id="borrarButton" class="borrarButton">Borrar</button>
 		<footer>Fuente de los datos: <a href="https://es.wikipedia.org/wiki/Anexo:Municipios_de_la_Regi%C3%B3n_de_Murcia">Wikipedia</a></footer>
 	</body>
 </html>

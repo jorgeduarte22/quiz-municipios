@@ -73,8 +73,27 @@ input:focus{
 	margin-bottom: 10px;
 }
 
+.sendButton {
+	outline: 0;
+	cursor: pointer;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+	border: 0px solid cornflowerblue;
+	font-size: 15px;
+	min-height: 31px;
+	padding: 0 11px;
+	text-align: center;
+	font-weight: 500;
+	color: black;
+	background-color: cornflowerblue;
+}
+
 .borrarButton:hover {
 	background-color: indianred;
+}
+
+.sendButton:hover {
+	background-color: darkslateblue;
 }
 
 footer {

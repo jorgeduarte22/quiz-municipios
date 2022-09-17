@@ -4,19 +4,14 @@ var state = [];
 window.onload = (event) => {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
+	var sendButton = document.getElementById("sendButton");
 	var municipiosList = document.getElementById("municipiosList");
 	loadState();
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
 			event.preventDefault();
-			guess = removeDiacritics(municipioInput.value.toLowerCase());
-			if(municipios[guess] && !state.includes(guess)) {
-				addMunicipioToState(guess)
-				selectMunicipio(municipios[guess]);
-				addMunicipioToList(municipios[guess].name);
-			}
-			municipioInput.value = "";
+			tryGuess();
 		}
 	});
 
@@ -25,6 +20,20 @@ window.onload = (event) => {
 		clearState();
 		clearMunicipiosList();
 	});
+
+	sendButton.addEventListener("click", function(event) {
+		tryGuess();
+	});
+
+	function tryGuess() {
+		guess = removeDiacritics(municipioInput.value.toLowerCase());
+		if(municipios[guess] && !state.includes(guess)) {
+			addMunicipioToState(guess)
+			selectMunicipio(municipios[guess]);
+			addMunicipioToList(municipios[guess].name);
+		}
+		municipioInput.value = "";
+	}
 }
 
 function loadState() {
