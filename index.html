@@ -9,8 +9,8 @@
 	</head>
 	<body>
 		<h1>¿Cuántos municipios eres capaz de nombrar?</h1>
-		<div>
-			<input id="municipioInput" type="string" autocomplete="off" placeholder="Introduce el nombre de un municipio"></input>
+		<div class="sendWrapper">
+			<input id="municipioInput" type="text" spellcheck="false" autocomplete="off" placeholder="Introduce el nombre de un municipio"></input>
 			<button id="sendButton" class="sendButton">Enviar</button>
 		</div>
 		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -583,9 +583,21 @@
 		  </g>
 		</svg>
 		</div>
-		<div class="card">
-			<h2>Municipios</h2>
-			<ol id="municipiosList" class="list"></ol>
+		<div class="cardsWrapper">
+			<div class="card">
+				<h2>Municipios</h2>
+				<ol id="municipiosList" type="1"></ol>
+			</div>
+			<div class="card">
+				<h2>Estadísticas</h2>
+				<ul id="stats">
+					<li id="numberOfMunicipios"></li>
+					<li id="numberOfBigMunicipios"></li>
+					<li id="numberOfMediumMunicipios"></li>
+					<li id="totalArea"></li>
+					<li id="totalPopulation"></li>
+				</ul>
+			</div>
 		</div>
 
 		<button id="borrarButton" class="borrarButton">Borrar</button>

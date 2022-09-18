@@ -1,12 +1,17 @@
 //I am ashamed. Please don't read this code.
 var state = [];
 
+const BIG_CITY_POPULATION = 100000
+const MEDIUM_CITY_POPULATION = 20000
+
 window.onload = (event) => {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
-	var municipiosList = document.getElementById("municipiosList");
 	loadState();
+	var totalStats = calculateTotalStats();
+	var stats = loadStats();
+	drawStats(stats, totalStats);
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -19,6 +24,8 @@ window.onload = (event) => {
 		state.forEach(m => deselectMunicipio(municipios[m]));
 		clearState();
 		clearMunicipiosList();
+		stats = loadStats();
+		drawStats(stats, totalStats);
 	});
 
 	sendButton.addEventListener("click", function(event) {
@@ -31,9 +38,59 @@ window.onload = (event) => {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[guess]);
 			addMunicipioToList(municipios[guess].name);
+			stats = addMunicipioToStats(stats, municipios[guess]);
+			drawStats(stats, totalStats);
 		}
 		municipioInput.value = "";
 	}
+}
+
+function calculateTotalStats() {
+	var totalStats = newStats();
+	for(var m in municipios) {
+		totalStats = addMunicipioToStats(totalStats, municipios[m]);
+	}
+	return totalStats;
+}
+
+function newStats() {
+	return {
+		"totalMunicipios": 0,
+		"bigMunicipios": 0,
+		"mediumMunicipios": 0,
+		"totalArea": 0,
+		"totalPopulation": 0
+	};
+}
+
+function addMunicipioToStats(stats, municipio) {
+	stats.totalMunicipios = stats.totalMunicipios + 1;
+	if (municipio.population > BIG_CITY_POPULATION) {
+		stats.bigMunicipios = stats.bigMunicipios + 1;
+	}
+	if (municipio.population > MEDIUM_CITY_POPULATION) {
+		stats.mediumMunicipios = stats.mediumMunicipios + 1;
+	}
+	stats.totalPopulation = stats.totalPopulation + municipio.population;
+	stats.totalArea = stats.totalArea + municipio.area;
+	return stats;
+}
+
+function drawStats(stats, totalStats) {
+	var totalMunicipiosStat = document.getElementById("numberOfMunicipios");
+	var bigMunicipiosStat = document.getElementById("numberOfBigMunicipios");
+	var mediumMunicipiosStat = document.getElementById("numberOfMediumMunicipios");
+	var totalPopulation = document.getElementById("totalPopulation");
+	var totalArea = document.getElementById("totalArea");
+	totalMunicipiosStat.innerHTML = beautifyNumber(stats.totalMunicipios) + " de " + beautifyNumber(totalStats.totalMunicipios) + " municipios encontrados";
+	bigMunicipiosStat.innerHTML = beautifyNumber(stats.bigMunicipios) + " de " + beautifyNumber(totalStats.bigMunicipios) + " con más de " + beautifyNumber(BIG_CITY_POPULATION) + " habitantes";
+	mediumMunicipiosStat.innerHTML = beautifyNumber(stats.mediumMunicipios) + " de " + beautifyNumber(totalStats.mediumMunicipios) + " con más de " + beautifyNumber(MEDIUM_CITY_POPULATION) + " habitantes";
+	totalArea.innerHTML = beautifyNumber(stats.totalArea) + " de " + beautifyNumber(totalStats.totalArea) + " km² cubiertos";
+	totalPopulation.innerHTML = beautifyNumber(stats.totalPopulation) + " de " + beautifyNumber(totalStats.totalPopulation) + " habitantes";
+}
+
+function beautifyNumber(number) {
+	return number.toLocaleString();
 }
 
 function loadState() {
@@ -45,6 +102,14 @@ function loadState() {
 		selectMunicipio(municipios[m]);
 		addMunicipioToList(municipios[m].name);
 	});
+}
+
+function loadStats() {
+	var stats = newStats();
+	state.forEach(m => {
+		addMunicipioToStats(stats, municipios[m]);
+	});
+	return stats;
 }
 
 function selectMunicipio(municipio) {
@@ -72,13 +137,15 @@ function clearState() {
 }
 
 function addMunicipioToList(name) {
-	var ul = document.createElement("ul");
-	ul.classList.add("listItem");
-	ul.innerHTML = (municipiosList.childElementCount+1) + ". " + name;
-	municipiosList.appendChild(ul);
+	var municipiosList = document.getElementById("municipiosList");
+	var li = document.createElement("li");
+	li.classList.add("listItem");
+	li.innerHTML = name;
+	municipiosList.appendChild(li);
 }
 
 function clearMunicipiosList() {
+	var municipiosList = document.getElementById("municipiosList");
 	municipiosList.replaceChildren();
 }
 

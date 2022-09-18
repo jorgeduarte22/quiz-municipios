@@ -21,12 +21,13 @@ input {
 	line-height: normal;
 	border: 1px solid #a6a6a6;
 	border-top-color: #949494;
-	border-radius: 3px;
+	border-radius: 5px;
 	box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
 	outline: 0;
 	color: #111;
 	font-size: 13px;
-                
+	margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 input:hover {
@@ -57,7 +58,7 @@ input:focus{
 	display: inline-block;
 	outline: 0;
 	cursor: pointer;
-	border-radius: 8px;
+	border-radius: 5px;
 	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 	border: 0px solid darkred;
 	font-size: 15px;
@@ -71,12 +72,13 @@ input:focus{
 	color: black;
 	background-color: red;
 	margin-bottom: 10px;
+	margin-top: 5px;
 }
 
 .sendButton {
 	outline: 0;
 	cursor: pointer;
-	border-radius: 8px;
+	border-radius: 5px;
 	box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
 	border: 0px solid cornflowerblue;
 	font-size: 15px;
@@ -86,6 +88,8 @@ input:focus{
 	font-weight: 500;
 	color: black;
 	background-color: cornflowerblue;
+	margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .borrarButton:hover .borrarButton:active .borrarButton:focus {
@@ -115,7 +119,11 @@ a {
 
 .card {
 	min-width: 300px;
-	margin-bottom: 10px;
+	max-width: 300px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 	border: 1px solid gainsboro;
 	border-radius: 5px;
 	text-align: : center;
@@ -128,12 +136,30 @@ h2 {
 	text-align: center;
 }
 
-.list {
-	width: 100%;
-}
-
 .listItem {
 	padding-left: 0px;
 	align-content: center;
 	text-align: left;
+}
+
+.cardsWrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+li {
+	padding-right: 15px;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	width: ;
+}
+
+.sendWrapper {
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
