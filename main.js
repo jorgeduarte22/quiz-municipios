@@ -33,7 +33,7 @@ window.onload = (event) => {
 	});
 
 	function tryGuess() {
-		guess = removeDiacritics(municipioInput.value.toLowerCase());
+		guess = removeDiacritics(municipioInput.value.toLowerCase().trimStart().trimEnd());
 		if(municipios[guess] && !state.includes(guess)) {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[guess]);
