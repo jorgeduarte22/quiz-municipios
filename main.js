@@ -1,14 +1,24 @@
 //I am ashamed. Please don't read this code.
-var state = [];
 
 const BIG_CITY_POPULATION = 100000
 const MEDIUM_CITY_POPULATION = 20000
+const INITIAL_STATE = {
+	madrid: [],
+	murcia: []
+};
+
+var state = INITIAL_STATE;
+var provincia = "murcia";
 
 window.onload = (event) => {
+	loadPage();
+}
+
+function loadPage() {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
-	loadPage();
+	loadMap();
 	loadState();
 	var totalStats = calculateTotalStats();
 	var stats = loadStats();
@@ -22,7 +32,7 @@ window.onload = (event) => {
 	});
 
 	borrarButton.addEventListener("click", function(event) {
-		state.forEach(m => deselectMunicipio(municipios[m]));
+		state[provincia].forEach(m => deselectMunicipio(municipios[provincia][m]));
 		clearState();
 		clearMunicipiosList();
 		stats = loadStats();
@@ -35,21 +45,26 @@ window.onload = (event) => {
 
 	function tryGuess() {
 		guess = removeDiacritics(municipioInput.value.toLowerCase().trimStart().trimEnd());
-		if(municipios[guess] && !state.includes(guess)) {
+		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
 			addMunicipioToState(guess)
-			selectMunicipio(municipios[guess]);
-			addMunicipioToList(municipios[guess].name);
-			stats = addMunicipioToStats(stats, municipios[guess]);
+			selectMunicipio(municipios[provincia][guess]);
+			addMunicipioToList(municipios[provincia][guess].name);
+			stats = addMunicipioToStats(stats, municipios[provincia][guess]);
 			drawStats(stats, totalStats);
 		}
 		municipioInput.value = "";
 	}
 }
 
+function changeProvincia(newProvincia) {
+	provincia = newProvincia;
+	loadPage();
+}
+
 function calculateTotalStats() {
 	var totalStats = newStats();
-	for(var m in municipios) {
-		totalStats = addMunicipioToStats(totalStats, municipios[m]);
+	for(var m in municipios[provincia]) {
+		totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
 	}
 	return totalStats;
 }
@@ -94,25 +109,25 @@ function beautifyNumber(number) {
 	return number.toLocaleString();
 }
 
-function loadPage() {
-	document.getElementById('mapSvg').innerHTML = mapSvg;
+function loadMap() {
+	document.getElementById('mapSvg').innerHTML = mapSvg[provincia];
 }
 
 function loadState() {
-	state = [];
+	state = INITIAL_STATE;
 	if(document.cookie) {
-		state = document.cookie.split(',');
+		state = JSON.parse(document.cookie);
 	}
-	state.forEach(m => {
-		selectMunicipio(municipios[m]);
-		addMunicipioToList(municipios[m].name);
+	state[provincia].forEach(m => {
+		selectMunicipio(municipios[provincia][m]);
+		addMunicipioToList(municipios[provincia][m].name);
 	});
 }
 
 function loadStats() {
 	var stats = newStats();
-	state.forEach(m => {
-		addMunicipioToStats(stats, municipios[m]);
+	state[provincia].forEach(m => {
+		addMunicipioToStats(stats, municipios[provincia][m]);
 	});
 	return stats;
 }
@@ -132,13 +147,17 @@ function deselectMunicipio(municipio) {
 }
 
 function addMunicipioToState(id) {
-	state.push(id);
-	document.cookie = state;
+	state[provincia].push(id);
+	saveState();
 }
 
 function clearState() {
-	state = [];
-	document.cookie = state;
+	state[provincia] = [];
+	saveState();
+}
+
+function saveState() {
+	document.cookie = JSON.stringify(state);
 }
 
 function addMunicipioToList(name) {
