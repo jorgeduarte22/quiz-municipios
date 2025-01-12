@@ -18,11 +18,11 @@ function loadPage() {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
-	loadMap();
+	
 	loadState();
-	var totalStats = calculateTotalStats();
-	var stats = loadStats();
-	drawStats(stats, totalStats);
+	clearMunicipiosList();
+	drawMap();
+	drawStats();
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -35,8 +35,7 @@ function loadPage() {
 		state[provincia].forEach(m => deselectMunicipio(municipios[provincia][m]));
 		clearState();
 		clearMunicipiosList();
-		stats = loadStats();
-		drawStats(stats, totalStats);
+		drawStats();
 	});
 
 	sendButton.addEventListener("click", function(event) {
@@ -49,8 +48,7 @@ function loadPage() {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[provincia][guess]);
 			addMunicipioToList(municipios[provincia][guess].name);
-			stats = addMunicipioToStats(stats, municipios[provincia][guess]);
-			drawStats(stats, totalStats);
+			drawStats();
 		}
 		municipioInput.value = "";
 	}
@@ -92,7 +90,9 @@ function addMunicipioToStats(stats, municipio) {
 	return stats;
 }
 
-function drawStats(stats, totalStats) {
+function drawStats() {
+	var stats = calculateStats();
+	var totalStats = calculateTotalStats();
 	var totalMunicipiosStat = document.getElementById("numberOfMunicipios");
 	var bigMunicipiosStat = document.getElementById("numberOfBigMunicipios");
 	var mediumMunicipiosStat = document.getElementById("numberOfMediumMunicipios");
@@ -109,8 +109,12 @@ function beautifyNumber(number) {
 	return number.toLocaleString();
 }
 
-function loadMap() {
+function drawMap() {
 	document.getElementById('mapSvg').innerHTML = mapSvg[provincia];
+	state[provincia].forEach(m => {
+		selectMunicipio(municipios[provincia][m]);
+		addMunicipioToList(municipios[provincia][m].name);
+	});
 }
 
 function loadState() {
@@ -122,13 +126,9 @@ function loadState() {
 			console.log("Error while loading state from cookie", e);
 		}
 	}
-	state[provincia].forEach(m => {
-		selectMunicipio(municipios[provincia][m]);
-		addMunicipioToList(municipios[provincia][m].name);
-	});
 }
 
-function loadStats() {
+function calculateStats() {
 	var stats = newStats();
 	state[provincia].forEach(m => {
 		addMunicipioToStats(stats, municipios[provincia][m]);
@@ -268,7 +268,8 @@ const diacriticsMap = [
 function removeDiacritics(str) {
     let i = diacriticsMap.length
     while(--i) {
-        str = str.replace(diacriticsMap[i].letters, diacriticsMap[i].base)
+        str = str.replaceAll(diacriticsMap[i].letters, diacriticsMap[i].base)
     }
+	str = str.replaceAll('-', ' ')
     return str
 }
