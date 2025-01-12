@@ -116,7 +116,11 @@ function loadMap() {
 function loadState() {
 	state = INITIAL_STATE;
 	if(document.cookie) {
-		state = JSON.parse(document.cookie);
+		try {
+			state = JSON.parse(document.cookie);
+		} catch (e) {
+			console.log("Error while loading state from cookie", e);
+		}
 	}
 	state[provincia].forEach(m => {
 		selectMunicipio(municipios[provincia][m]);
