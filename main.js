@@ -8,6 +8,7 @@ window.onload = (event) => {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
+	loadPage();
 	loadState();
 	var totalStats = calculateTotalStats();
 	var stats = loadStats();
@@ -91,6 +92,10 @@ function drawStats(stats, totalStats) {
 
 function beautifyNumber(number) {
 	return number.toLocaleString();
+}
+
+function loadPage() {
+	document.getElementById('mapSvg').innerHTML = mapSvg;
 }
 
 function loadState() {
