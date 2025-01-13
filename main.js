@@ -8,7 +8,7 @@ const INITIAL_STATE = {
 };
 
 var state = INITIAL_STATE;
-var provincia = "murcia";
+var provincia;
 
 window.onload = (event) => {
 	loadPage();
@@ -18,7 +18,10 @@ function loadPage() {
 	var municipioInput = document.getElementById("municipioInput");
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
+	var selectProvincia = document.getElementById("selectProvincia");
 	
+	provincia = selectProvincia.value;
+
 	loadState();
 	clearMunicipiosList();
 	drawMap();
@@ -40,6 +43,11 @@ function loadPage() {
 
 	sendButton.addEventListener("click", function(event) {
 		tryGuess();
+	});
+
+	selectProvincia.addEventListener("change", function(event) {
+		console.log(event);
+		changeProvincia(event.target.value);
 	});
 
 	function tryGuess() {

@@ -100,6 +100,22 @@ input:focus{
 	background-color: darkslateblue;
 }
 
+#provincia {
+	float: right;
+	margin-right: 15px;
+}
+
+header {
+    margin-top: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: gainsboro;
+    width: 100%;
+    text-align: center;
+    color: black;
+	font-size: 15px;
+}
+
 footer {
     margin-top: auto;
     padding-bottom: 10px;
