@@ -4,7 +4,8 @@ const BIG_CITY_POPULATION = 100000
 const MEDIUM_CITY_POPULATION = 20000
 const INITIAL_STATE = {
 	madrid: [],
-	murcia: []
+	murcia: [],
+	cadiz: []
 };
 
 var state = INITIAL_STATE;
@@ -126,14 +127,21 @@ function drawMap() {
 }
 
 function loadState() {
-	state = INITIAL_STATE;
 	if(document.cookie) {
 		try {
 			state = JSON.parse(document.cookie);
+			// Add missing keys (can happen when adding new provincias)
+			Object.keys(INITIAL_STATE).forEach(k => {
+					if (!state[k])
+						state[k] = INITIAL_STATE[k];
+				}
+			);
 		} catch (e) {
 			console.log("Error while loading state from cookie", e);
+			state = INITIAL_STATE;
 		}
 	}
+	saveState();
 }
 
 function calculateStats() {

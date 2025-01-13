@@ -1346,5 +1346,277 @@ municipios = {
 			"paths": ["path100"],
 			"name": "Zarzalejo"
 		},
+	},
+	cadiz: {
+		"alcala de los gazules": {
+			"paths": ["path116"],
+			"name": "Alcalá de los Gazules",
+			"population": 5227,
+			"area": 479.07
+		},
+		"alcala del valle": {
+			"paths": ["path20"],
+			"name": "Alcalá del Valle",
+			"population": 4982,
+			"area": 46.89
+		},
+		"algar": {
+			"paths": ["path104"],
+			"name": "Algar",
+			"population": 1433,
+			"area": 26.61
+		},
+		"algeciras": {
+			"paths": ["path180"],
+			"name": "Algeciras",
+			"population": 122368,
+			"area": 87.96
+		},
+		"algodonales": {
+			"paths": ["path24"],
+			"name": "Algodonales",
+			"population": 5504,
+			"area": 134.05
+		},
+		"arcos de la frontera": {
+			"paths": ["path60"],
+			"name": "Arcos de la Frontera",
+			"population": 30953,
+			"area": 526.81
+		},
+		"barbate": {
+			"paths": ["path172"],
+			"name": "Barbate",
+			"population": 22872,
+			"area": 142.17
+		},
+		"los barrios": {
+			"paths": ["path160"],
+			"name": "Los Barrios",
+			"population": 24069,
+			"area": 330.70
+		},
+		"benalup casas viejas": {
+			"paths": ["path148"],
+			"name": "Benalup-Casas Viejas",
+			"population": 7160,
+			"area": 60.37
+		},
+		"benaocaz": {
+			"paths": ["path84"],
+			"name": "Benaocaz",
+			"population": 685,
+			"area": 69.39
+		},
+		"bornos": {
+			"paths": ["path48"],
+			"name": "Bornos",
+			"population": 7607,
+			"area": 55.09
+		},
+		"el bosque": {
+			"paths": ["path72"],
+			"name": "El Bosque",
+			"population": 2209,
+			"area": 30.75
+		},
+		"cadiz": {
+			"paths": ["path120"],
+			"name": "Cádiz",
+			"population": 113066,
+			"area": 12.30
+		},
+		"castellar de la frontera": {
+			"paths": ["path152"],
+			"name": "Castellar de la Frontera",
+			"population": 3043,
+			"area": 180.51
+		},
+		"chiclana de la frontera": {
+			"paths": ["path140"],
+			"name": "Chiclana de la Frontera",
+			"population": 87493,
+			"area": 206.77
+		},
+		"chipiona": {
+			"paths": ["path76"],
+			"name": "Chipiona",
+			"population": 19592,
+			"area": 33.12
+		},
+		"conil de la frontera": {
+			"paths": ["path156"],
+			"name": "Conil de la Frontera",
+			"population": 23497,
+			"area": 87.37
+		},
+		"espera": {
+			"paths": ["path28"],
+			"name": "Espera",
+			"population": 3820,
+			"area": 123.44
+		},
+		"el gastor": {
+			"paths": ["path52"],
+			"name": "El Gastor",
+			"population": 1699,
+			"area": 27.54
+		},
+		"grazalema": {
+			"paths": ["path68"],
+			"name": "Grazalema",
+			"population": 2005,
+			"area": 122.41
+		},
+		"jerez de la frontera": {
+			"paths": ["path184", "path108"],
+			"name": "Jerez de la Frontera",
+			"population": 212730,
+			"area": 1187.92
+		},
+		"jimena de la frontera": {
+			"paths": ["path132"],
+			"name": "Jimena de la Frontera",
+			"population": 6681,
+			"area": 298.42
+		},
+		"la linea de la concepcion": {
+			"paths": ["path176"],
+			"name": "La Línea de la Concepción",
+			"population": 63271,
+			"area": 26.67
+		},
+		"medina sidonia": {
+			"paths": ["path128"],
+			"name": "Medina Sidonia",
+			"population": 11739,
+			"area": 487.63
+		},
+		"olvera": {
+			"paths": ["path12"],
+			"name": "Olvera",
+			"population": 7974,
+			"area": 193.69
+		},
+		"paterna de rivera": {
+			"paths": ["path124"],
+			"name": "Paterna de Rivera",
+			"population": 5451,
+			"area": 13.83
+		},
+		"prado del rey": {
+			"paths": ["path64"],
+			"name": "Prado del Rey",
+			"population": 5647,
+			"area": 48.58
+		},
+		"el puerto de santa maria": {
+			"paths": ["path88"],
+			"name": "El Puerto de Santa María",
+			"population": 89435,
+			"area": 159.09
+		},
+		"puerto real": {
+			"paths": ["path112"],
+			"name": "Puerto Real",
+			"population": 41963,
+			"area": 195.97
+		},
+		"puerto serrano": {
+			"paths": ["path8"],
+			"name": "Puerto Serrano",
+			"population": 6971,
+			"area": 79.85
+		},
+		"rota": {
+			"paths": ["path80"],
+			"name": "Rota",
+			"population": 29491,
+			"area": 84.19
+		},
+		"san fernando": {
+			"paths": ["path136"],
+			"name": "San Fernando",
+			"population": 94120,
+			"area": 29.91
+		},
+		"san jose del valle": {
+			"paths": ["path100"],
+			"name": "San José del Valle",
+			"population": 4453,
+			"area": 223.85
+		},
+		"san martin del tesorillo": {
+			"paths": ["path132"],
+			"name": "San Martín del Tesorillo",
+			"population": 2797,
+			"area": 48.44
+		},
+		"san roque": {
+			"paths": ["path164"],
+			"name": "San Roque",
+			"population": 33018,
+			"area": 139.48
+		},
+		"sanlucar de barrameda": {
+			"paths": ["path40"],
+			"name": "Sanlúcar de Barrameda",
+			"population": 69727,
+			"area": 170.27
+		},
+		"setenil de las bodegas": {
+			"paths": ["path44"],
+			"name": "Setenil de las Bodegas",
+			"population": 2675,
+			"area": 82.15
+		},
+		"tarifa": {
+			"paths": ["path168"],
+			"name": "Tarifa",
+			"population": 18564,
+			"area": 419.18
+		},
+		"torre alhaquime": {
+			"paths": ["path32"],
+			"name": "Torre Alháquime",
+			"population": 803,
+			"area": 17.36
+		},
+		"trebujena": {
+			"paths": ["path36"],
+			"name": "Trebujena",
+			"population": 7010,
+			"area": 70.72
+		},
+		"ubrique": {
+			"paths": ["path96"],
+			"name": "Ubrique",
+			"population": 16383,
+			"area": 69.75
+		},
+		"vejer de la frontera": {
+			"paths": ["path144"],
+			"name": "Vejer de la Frontera",
+			"population": 12656,
+			"area": 264.58
+		},
+		"villaluenga del rosario": {
+			"paths": ["path92"],
+			"name": "Villaluenga del Rosario",
+			"population": 462,
+			"area": 59.46
+		},
+		"villamartin": {
+			"paths": ["path16"],
+			"name": "Villamartín",
+			"population": 12095,
+			"area": 211.85
+		},
+		"zahara de la sierra": {
+			"paths": ["path56"],
+			"name": "Zahara de la Sierra",
+			"population": 1371,
+			"area": 72.48
+		},
 	}
 }
