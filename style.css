@@ -42,6 +42,8 @@ input:focus{
 .map {
 	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .selected {
@@ -142,7 +144,7 @@ a {
 	margin-right: 5px;
 	border: 1px solid gainsboro;
 	border-radius: 5px;
-	text-align: : center;
+	text-align: center;
 }
 
 h2 {
@@ -171,11 +173,14 @@ li {
 	height: auto;
 	margin-top: 10px;
 	margin-bottom: 5px;
-	width: ;
 }
 
 .sendWrapper {
 	display: flex;
 	align-items: center;
 	gap: 5px;
+}
+
+svg {
+	width: 100%;
 }

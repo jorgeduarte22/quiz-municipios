@@ -3,6 +3,7 @@
 const BIG_CITY_POPULATION = 100000
 const MEDIUM_CITY_POPULATION = 20000
 const INITIAL_STATE = {
+	spain: [],
 	madrid: [],
 	murcia: [],
 	cadiz: []
@@ -71,7 +72,8 @@ function changeProvincia(newProvincia) {
 function calculateTotalStats() {
 	var totalStats = newStats();
 	for(var m in municipios[provincia]) {
-		totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
+		if(!municipios[provincia][m].synonym)
+			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
 	}
 	return totalStats;
 }
@@ -146,7 +148,8 @@ function loadState() {
 
 function calculateStats() {
 	var stats = newStats();
-	state[provincia].forEach(m => {
+	state[provincia].filter(m => !municipios[provincia][m].synonym)
+	.forEach(m => {
 		addMunicipioToStats(stats, municipios[provincia][m]);
 	});
 	return stats;
@@ -287,5 +290,6 @@ function removeDiacritics(str) {
         str = str.replaceAll(diacriticsMap[i].letters, diacriticsMap[i].base)
     }
 	str = str.replaceAll('-', ' ')
+	str = str.replaceAll('\'', ' ')
     return str
 }
