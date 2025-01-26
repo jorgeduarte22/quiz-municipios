@@ -60,6 +60,13 @@ function loadPage() {
 			addMunicipioToList(municipios[provincia][guess].name);
 			drawStats();
 		}
+		guess += '2';
+		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
+			addMunicipioToState(guess)
+			selectMunicipio(municipios[provincia][guess]);
+			addMunicipioToList(municipios[provincia][guess].name);
+			drawStats();
+		}
 		municipioInput.value = "";
 	}
 }
@@ -72,7 +79,7 @@ function changeProvincia(newProvincia) {
 function calculateTotalStats() {
 	var totalStats = newStats();
 	for(var m in municipios[provincia]) {
-		if(!municipios[provincia][m].synonym)
+		if(!municipios[provincia][m].synonym && !municipios[provincia][m].skip)
 			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
 	}
 	return totalStats;
@@ -292,4 +299,74 @@ function removeDiacritics(str) {
 	str = str.replaceAll('-', ' ')
 	str = str.replaceAll('\'', ' ')
     return str
+}
+
+// Helper functions
+
+function paintProvincia(provincia, color) {
+	Object.entries(municipios.spain)
+	.filter(m => m[1].provincia === provincia)
+	.map(m => m[1].paths).forEach(paths => {
+		try {
+			paths.forEach(p => document.getElementById(p).setAttribute('fill', color));
+		} catch(e) {
+			console.log(paths);
+		}
+	});
+}
+
+function pintar() {
+	paintProvincia('Araba/Álava', 'red');
+	paintProvincia('Albacete', 'red');
+	paintProvincia('Alacant/Alicante', 'red');
+	paintProvincia('Almería', 'red');
+	paintProvincia('Ávila', 'red');
+	paintProvincia('Badajoz', 'red');
+	paintProvincia('Illes Balears', 'red');
+	paintProvincia('Barcelona', 'red');
+	paintProvincia('Burgos', 'red');
+	paintProvincia('Cáceres', 'red');
+	paintProvincia('Cádiz', 'red');
+	paintProvincia('Castelló/Castellón', 'red');
+	paintProvincia('Ciudad Real', 'red');
+	paintProvincia('Córdoba', 'red');
+	paintProvincia('A Coruña', 'red');
+	paintProvincia('Cuenca', 'red');
+	paintProvincia('Girona', 'red');
+	paintProvincia('Granada', 'red');
+	paintProvincia('Guadalajara', 'red');
+	paintProvincia('Gipuzkoa', 'red');
+	paintProvincia('Huelva', 'red');
+	paintProvincia('Huesca', 'red');
+	paintProvincia('Jaén', 'red');
+	paintProvincia('León', 'red');
+	paintProvincia('Lleida', 'red');
+	paintProvincia('La Rioja', 'red');
+	paintProvincia('Lugo', 'red');
+	paintProvincia('Madrid', 'red');
+	paintProvincia('Málaga', 'red');
+	paintProvincia('Murcia', 'red');
+	paintProvincia('Navarra', 'red');
+	paintProvincia('Ourense', 'red');
+	paintProvincia('Asturias', 'red');
+	paintProvincia('Palencia', 'red');
+	paintProvincia('Las Palmas', 'red');
+	paintProvincia('Pontevedra', 'red');
+	paintProvincia('Salamanca', 'red');
+	paintProvincia('Santa Cruz de Tenerife', 'red');
+	paintProvincia('Cantabria', 'red');
+	paintProvincia('Segovia', 'red');
+	paintProvincia('Sevilla', 'red');
+	paintProvincia('Soria', 'red');
+	paintProvincia('Tarragona', 'red');
+	paintProvincia('Teruel', 'red');
+	paintProvincia('Toledo', 'red');
+	paintProvincia('València/Valencia', 'red');
+	paintProvincia('Valladolid', 'red');
+	paintProvincia('Bizkaia', 'red');
+	paintProvincia('Zamora', 'red');
+	paintProvincia('Zaragoza', 'red');
+	paintProvincia('Ceuta', 'red');
+	paintProvincia('Melilla', 'red');
+	paintProvincia('', 'black');
 }
