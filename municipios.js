@@ -8973,7 +8973,7 @@ municipios = {
 			]
 		},
 		"sancti spiritus": {
-			"name": "Sancti-Spíritus",
+			"name": "Sancti-Spíritus (Salamanca)",
 			"provincia": "Salamanca",
 			"population": 738,
 			"area": 141.89777,
@@ -8982,7 +8982,7 @@ municipios = {
 			]
 		},
 		"sancti spiritus2": {
-			"name": "Sancti-Spíritus",
+			"name": "Sancti-Spíritus (Badajoz)",
 			"provincia": "Badajoz",
 			"population": 154,
 			"area": 33.562775,
@@ -9394,7 +9394,7 @@ municipios = {
 			]
 		},
 		"la zarza": {
-			"name": "La Zarza",
+			"name": "La Zarza (Valladolid)",
 			"provincia": "Valladolid",
 			"population": 116,
 			"area": 24.578107,
@@ -9403,7 +9403,7 @@ municipios = {
 			]
 		},
 		"la zarza2": {
-			"name": "La Zarza",
+			"name": "La Zarza (Badajoz)",
 			"provincia": "Badajoz",
 			"population": 3369,
 			"area": 63.18607,
@@ -16959,7 +16959,7 @@ municipios = {
 			]
 		},
 		"arroyomolinos": {
-			"name": "Arroyomolinos",
+			"name": "Arroyomolinos (Madrid)",
 			"provincia": "Madrid",
 			"population": 35972,
 			"area": 20.658713,
@@ -16968,7 +16968,7 @@ municipios = {
 			]
 		},
 		"arroyomolinos2": {
-			"name": "Arroyomolinos",
+			"name": "Arroyomolinos (Cáceres)",
 			"provincia": "Cáceres",
 			"population": 809,
 			"area": 115.508,
@@ -18151,7 +18151,7 @@ municipios = {
 			]
 		},
 		"rebollar": {
-			"name": "Rebollar",
+			"name": "Rebollar (Cáceres)",
 			"provincia": "Cáceres",
 			"population": 200,
 			"area": 11.5097,
@@ -18160,7 +18160,7 @@ municipios = {
 			]
 		},
 		"rebollar2": {
-			"name": "Rebollar",
+			"name": "Rebollar (Soria)",
 			"provincia": "Soria",
 			"population": 36,
 			"area": 10.3401,
@@ -19515,7 +19515,7 @@ municipios = {
 			"synonym": true
 		},
 		"cabanes": {
-			"name": "Cabanes",
+			"name": "Cabanes (Girona",
 			"provincia": "Girona",
 			"population": 941,
 			"area": 15.0023,
@@ -19524,7 +19524,7 @@ municipios = {
 			]
 		},
 		"cabanes2": {
-			"name": "Cabanes",
+			"name": "Cabanes (Castelló/Castellón)",
 			"provincia": "Castelló/Castellón",
 			"population": 3222,
 			"area": 131.5595,
@@ -21469,7 +21469,7 @@ municipios = {
 			]
 		},
 		"villanueva de los infantes": {
-			"name": "Villanueva de los Infantes",
+			"name": "Villanueva de los Infantes (Valladolid)",
 			"provincia": "Valladolid",
 			"population": 104,
 			"area": 19.17377,
@@ -21478,7 +21478,7 @@ municipios = {
 			]
 		},
 		"villanueva de los infantes2": {
-			"name": "Villanueva de los Infantes",
+			"name": "Villanueva de los Infantes (Ciudad Real)",
 			"provincia": "Ciudad Real",
 			"population": 4775,
 			"area": 135.06361,
@@ -23917,7 +23917,7 @@ municipios = {
 			]
 		},
 		"sada": {
-			"name": "Sada",
+			"name": "Sada (Navarra)",
 			"provincia": "Navarra",
 			"population": 130,
 			"area": 12.653471,
@@ -23926,7 +23926,7 @@ municipios = {
 			]
 		},
 		"sada2": {
-			"name": "Sada",
+			"name": "Sada (A Coruña)",
 			"provincia": "A Coruña",
 			"population": 16874,
 			"area": 27.8291,
@@ -23973,7 +23973,7 @@ municipios = {
 			]
 		},
 		"sobrado": {
-			"name": "Sobrado",
+			"name": "Sobrado (León)",
 			"provincia": "León",
 			"population": 302,
 			"area": 40.944818,
@@ -23982,7 +23982,7 @@ municipios = {
 			]
 		},
 		"sobrado2": {
-			"name": "Sobrado",
+			"name": "Sobrado (A Coruña)",
 			"provincia": "A Coruña",
 			"population": 1777,
 			"area": 120.5715,
@@ -24778,7 +24778,7 @@ municipios = {
 			]
 		},
 		"castejon": {
-			"name": "Castejón",
+			"name": "Castejón (Navarra)",
 			"provincia": "Navarra",
 			"population": 4435,
 			"area": 18.066945,
@@ -24787,7 +24787,7 @@ municipios = {
 			]
 		},
 		"castejon2": {
-			"name": "Castejón",
+			"name": "Castejón (Cuenca)",
 			"provincia": "Cuenca",
 			"population": 117,
 			"area": 43.619603,
@@ -25320,7 +25320,7 @@ municipios = {
 			]
 		},
 		"moya": {
-			"name": "Moya",
+			"name": "Moya (Las Palmas)",
 			"provincia": "Las Palmas",
 			"population": 7889,
 			"area": 32.2046,
@@ -25329,7 +25329,7 @@ municipios = {
 			]
 		},
 		"moya2": {
-			"name": "Moya",
+			"name": "Moya (Cuenca)",
 			"provincia": "Cuenca",
 			"population": 170,
 			"area": 91.732342,
@@ -27569,7 +27569,7 @@ municipios = {
 			]
 		},
 		"mieres": {
-			"name": "Mieres",
+			"name": "Mieres (Asturias)",
 			"provincia": "Asturias",
 			"population": 36195,
 			"area": 146.0375,
@@ -27578,7 +27578,7 @@ municipios = {
 			]
 		},
 		"mieres2": {
-			"name": "Mieres",
+			"name": "Mieres (Girona)",
 			"provincia": "Girona",
 			"population": 353,
 			"area": 26.139,
@@ -28553,7 +28553,7 @@ municipios = {
 			]
 		},
 		"torrent": {
-			"name": "Torrent",
+			"name": "Torrent (València/Valencia)",
 			"provincia": "València/Valencia",
 			"population": 87295,
 			"area": 69.2393,
@@ -28562,7 +28562,7 @@ municipios = {
 			]
 		},
 		"torrent2": {
-			"name": "Torrent",
+			"name": "Torrent (Girona)",
 			"provincia": "Girona",
 			"population": 170,
 			"area": 7.864562,
@@ -34205,7 +34205,7 @@ municipios = {
 			]
 		},
 		"el campillo": {
-			"name": "El Campillo",
+			"name": "El Campillo (Valladolid)",
 			"provincia": "Valladolid",
 			"population": 202,
 			"area": 32.804603,
@@ -34214,7 +34214,7 @@ municipios = {
 			]
 		},
 		"el campillo2": {
-			"name": "El Campillo",
+			"name": "El Campillo (Huelva)",
 			"provincia": "Huelva",
 			"population": 2015,
 			"area": 90.718895,
@@ -44557,7 +44557,7 @@ municipios = {
 			]
 		},
 		"el molar": {
-			"name": "El Molar",
+			"name": "El Molar (Tarragona)",
 			"provincia": "Tarragona",
 			"population": 314,
 			"area": 22.752,
@@ -44566,7 +44566,7 @@ municipios = {
 			]
 		},
 		"el molar2": {
-			"name": "El Molar",
+			"name": "El Molar (Madrid)",
 			"provincia": "Madrid",
 			"population": 9759,
 			"area": 50.289817,
@@ -61459,7 +61459,7 @@ municipios = {
 			]
 		},
 		"villaescusa": {
-			"name": "Villaescusa",
+			"name": "Villaescusa (Zamora)",
 			"provincia": "Zamora",
 			"population": 236,
 			"area": 43.092861,
@@ -61468,16 +61468,7 @@ municipios = {
 			]
 		},
 		"villaescusa2": {
-			"name": "Villaescusa",
-			"provincia": "Cantabria",
-			"population": 3949,
-			"area": 28.412231,
-			"paths": [
-				"OBJECTID_4638"
-			]
-		},
-		"villaescusa2": {
-			"name": "Villaescusa",
+			"name": "Villaescusa (Cantabria)",
 			"provincia": "Cantabria",
 			"population": 3949,
 			"area": 28.412231,
@@ -68548,7 +68539,7 @@ municipios = {
 			]
 		},
 		"fonfria": {
-			"name": "Fonfría",
+			"name": "Fonfría (Zamora)",
 			"provincia": "Zamora",
 			"population": 783,
 			"area": 132.8935,
@@ -68557,7 +68548,7 @@ municipios = {
 			]
 		},
 		"fonfria2": {
-			"name": "Fonfría",
+			"name": "Fonfría (Teruel)",
 			"provincia": "Teruel",
 			"population": 32,
 			"area": 20.583531,
