@@ -82427,246 +82427,287 @@ municipios = {
 		},
 		"los baldios": {
 			"skip": true,
+			"provincia": "Las Palmas",
 			"paths": [
 				"OBJECTID_575"
 			]
 		},
 		"el redeguelo": {
 			"skip": true,
+			"provincia": "Madrid",
 			"paths": [
 				"OBJECTID_576"
 			]
 		},
 		"facero de uzamalarre": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1118"
 			]
 		},
 		"faceria de arambelza": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1119"
 			]
 		},
 		"mancomunidad de beunza y juarbe": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1120"
 			]
 		},
 		"comunidad de barbarin y olejua": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1121"
 			]
 		},
 		"monte comunal de las limitaciones de las amescoas": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1124"
 			]
 		},
 		"faceria de ezcabarte y otros": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1126"
 			]
 		},
 		"faceria de aldape": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1127"
 			]
 		},
 		"faceria de montejurra": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1129"
 			]
 		},
 		"comunidad del valle de salazar": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1130"
 			]
 		},
 		"facero de aristregui": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1131"
 			]
 		},
 		"facero de ujue y lerga": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1132"
 			]
 		},
 		"faceria de ayarza": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1133"
 			]
 		},
 		"bardenas reales": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1134"
 			]
 		},
 		"sierra de aralar": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1135"
 			]
 		},
 		"sierra de lokiz": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1136"
 			]
 		},
 		"faceria de cogullo alto, cogullo bajo, sarmindieta y chandivar": {
 			"skip": true,
+			"provincia": "Navarra",
 			"paths": [
 				"OBJECTID_1137"
 			]
 		},
 		"comunidad de la sierra brava de badaya": {
 			"skip": true,
+			"provincia": "Araba/Álava",
 			"paths": [
 				"OBJECTID_1193"
 			]
 		},
 		"parzoneria de entzia": {
 			"skip": true,
+			"provincia": "Araba/Álava",
 			"paths": [
 				"OBJECTID_1194"
 			]
 		},
 		"aldovera": {
 			"skip": true,
+			"provincia": "Guadalajara",
 			"paths": [
 				"OBJECTID_1255"
 			]
 		},
 		"parzoneria general de guipuzcoa y alava": {
 			"skip": true,
+			"provincia": "Araba/Álava",
 			"paths": [
 				"OBJECTID_1301"
 			]
 		},
 		"mancomunidad de amezketa y ordizia": {
 			"skip": true,
+			"provincia": "Gipuzkoa",
 			"paths": [
 				"OBJECTID_1302"
 			]
 		},
 		"mancomunidad de nalda, sorzano y viguera": {
 			"skip": true,
+			"provincia": "La Rioja",
 			"paths": [
 				"OBJECTID_1655"
 			]
 		},
 		"comunidad de el pont de bar y cava": {
 			"skip": true,
+			"provincia": "Lleida",
 			"paths": [
 				"OBJECTID_2544"
 			]
 		},
 		"cuarto del madrono": {
 			"skip": true,
+			"provincia": "Jaén",
 			"paths": [
 				"OBJECTID_3366"
 			]
 		},
 		"comunero de anso y hecho": {
 			"skip": true,
+			"provincia": "Huesca",
 			"paths": [
 				"OBJECTID_3793"
 			]
 		},
 		"comunidad de la pardina del mercadal": {
 			"skip": true,
+			"provincia": "Teruel",
 			"paths": [
 				"OBJECTID_4030"
 			]
 		},
 		"comunidad de campoo y cabuerniga": {
 			"skip": true,
+			"provincia": "Cantabria",
 			"paths": [
 				"OBJECTID_4642"
 			]
 		},
 		"comunidad de arauzo de miel y huerta del rey": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5285"
 			]
 		},
 		"comunidad de los ausines y revilla del campo": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5286"
 			]
 		},
 		"comunidad de barbadillo de herreros y vallejimeno (e.l.m.)": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5287"
 			]
 		},
 		"comunidad de 09076, 09290, 09578, 09606 y 09822": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5288"
 			]
 		},
 		"comunidad de 09076, 09290, 09578 y 09822": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5289"
 			]
 		},
 		"cabeza alta": {
 			"skip": true,
+			"provincia": "Jaén",
 			"paths": [
 				"OBJECTID_5290"
 			]
 		},
 		"comunidad de 09076, 09150 y 09578": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5291"
 			]
 		},
 		"comunidad de 09076, 09498 y 09578": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5292"
 			]
 		},
 		"comunidad de 09076, 09578, 09606 y 09822": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5293"
 			]
 		},
 		"comunidad de barbadillo del pez y jaramillo de la fuente": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5294"
 			]
 		},
 		"comunidad de barbadillo del pez y riocavado de la sierra": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5295"
 			]
 		},
 		"comunidad de bascunana y viloria de rioja": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5296",
 		"path3755",
@@ -82676,234 +82717,273 @@ municipios = {
 		},
 		"monte revenga": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5297"
 			]
 		},
 		"comunidad de canicosa de la sierra y vilviestre del pinar": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5298"
 			]
 		},
 		"comunidad de canicosa de la sierra y casarejos": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5299"
 			]
 		},
 		"soncarazo": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5300"
 			]
 		},
 		"comunidad de fuente carazo": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5301"
 			]
 		},
 		"ledania de 09162, 09290, 09412 y 09606": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5302"
 			]
 		},
 		"dehesa de san felices": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5303"
 			]
 		},
 		"comunidad de cilleruelo de arriba y pineda trasmonte": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5304"
 			]
 		},
 		"comunidad de covarrubias, quintanilla del coco y retuerta": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5305"
 			]
 		},
 		"comunidad de cubillo del campo y hontoria de la cantera": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5306"
 			]
 		},
 		"comunidad de gete y hacinas": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5307"
 			]
 		},
 		"ledania de hacinas y salas de los infantes": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5308"
 			]
 		},
 		"ledania de hacinas, salas de los infantes y villanueva de carazo": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5309"
 			]
 		},
 		"comunidad de 09314, 09374, 09356 y 09126": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5310"
 			]
 		},
 		"valle de las venadas": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5311"
 			]
 		},
 		"comunidad de palacios de la sierra, vilviestre del pinar y san leonardo de yague": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5312"
 			]
 		},
 		"comunidad de quintanaortuno y merindad de rio ubierna": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5313"
 			]
 		},
 		"comunidad de quintanar de la sierra y vilviestre del pinar": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5314"
 			]
 		},
 		"comunidad de revilla del campo y torrelara": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5315"
 			]
 		},
 		"ledania de castrillo de la reina, hacinas y salas de los infantes": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5316"
 			]
 		},
 		"comunidad de la aynosa": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5317"
 			]
 		},
 		"comunidad de villagalijo y san vicente del valle": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5318"
 			]
 		},
 		"comunidad de tardajos y las quintanillas": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5319"
 			]
 		},
 		"comunidad de tardajos y rabe de las calzadas": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5320"
 			]
 		},
 		"comunidad de tinieblas de la sierra y san millan de lara": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5321"
 			]
 		},
 		"comunidad de vilviestre del pinar y palacios de la sierra": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5322"
 			]
 		},
 		"comunidad de villoruebo y torrelara": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5323"
 			]
 		},
 		"comunidad de vizcainos y jaramillo de la fuente": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5324"
 			]
 		},
 		"comunidad de quintanilla del agua y tordueles y puentedura": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5325"
 			]
 		},
 		"comunidad de merindad de rio ubierna, quintanilla vivar y sotragero": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5326"
 			]
 		},
 		"monte de la mata": {
 			"skip": true,
+			"provincia": "Burgos",
 			"paths": [
 				"OBJECTID_5327"
 			]
 		},
 		"comunidad de castrotierra de la valduerna": {
 			"skip": true,
+			"provincia": "León",
 			"paths": [
 				"OBJECTID_5546"
 			]
 		},
 		"foncabada": {
 			"skip": true,
+			"provincia": "León",
 			"paths": [
 				"OBJECTID_5547"
 			]
 		},
 		"comunidad de soto de la vega y villazala": {
 			"skip": true,
+			"provincia": "León",
 			"paths": [
 				"OBJECTID_5548"
 			]
 		},
 		"mancomunidad de villagaton y quintana del castillo": {
 			"skip": true,
+			"provincia": "León",
 			"paths": [
 				"OBJECTID_5549"
 			]
 		},
 		"coto mancomunado": {
 			"skip": true,
+			"provincia": "Salamanca",
 			"paths": [
 				"OBJECTID_6125"
 			]
 		},
 		"comunidad de sepulveda y riaza": {
 			"skip": true,
+			"provincia": "Segovia",
 			"paths": [
 				"OBJECTID_6342"
 			]
 		},
 		"dehesa de santiago": {
 			"skip": true,
+			"provincia": "Albacete",
 			"paths": [
 				"OBJECTID_7106"
 			]
 		},
 		"san bartolome2": {
 			"skip": true,
+			"provincia": "Soria",
 			"paths": ["OBJECTID_6528"]
 		},
 	}
