@@ -2215,6 +2215,7 @@ municipios = {
 		},
 		"vitoria gasteiz": {
 			"name": "Vitoria-Gasteiz",
+			"capital": true,
 			"provincia": "Araba/Álava",
 			"population": 255886,
 			"area": 276.9839,
@@ -2318,6 +2319,7 @@ municipios = {
 		},
 		"albacete": {
 			"name": "Albacete",
+			"capital": true,
 			"provincia": "Albacete",
 			"population": 173206,
 			"area": 1126.9896,
@@ -3244,6 +3246,7 @@ municipios = {
 		},
 		"alicante": {
 			"name": "Alacant/Alicante",
+			"capital": true,
 			"provincia": "Alacant/Alicante",
 			"population": 349282,
 			"area": 202.5549,
@@ -4699,6 +4702,7 @@ municipios = {
 		},
 		"almeria": {
 			"name": "Almería",
+			"capital": true,
 			"provincia": "Almería",
 			"population": 200578,
 			"area": 295.7244,
@@ -5750,6 +5754,7 @@ municipios = {
 		},
 		"avila": {
 			"name": "Ávila",
+			"capital": true,
 			"provincia": "Ávila",
 			"population": 57741,
 			"area": 230.7044,
@@ -8014,6 +8019,7 @@ municipios = {
 		},
 		"badajoz": {
 			"name": "Badajoz",
+			"capital": true,
 			"provincia": "Badajoz",
 			"population": 150190,
 			"area": 1440.5157,
@@ -10039,6 +10045,7 @@ municipios = {
 		},
 		"palma": {
 			"name": "Palma",
+			"capital": true,
 			"provincia": "Illes Balears",
 			"population": 423350,
 			"area": 208.62973,
@@ -10679,6 +10686,7 @@ municipios = {
 		},
 		"barcelona": {
 			"name": "Barcelona",
+			"capital": true,
 			"provincia": "Barcelona",
 			"population": 1660122,
 			"area": 100.7644,
@@ -13799,6 +13807,7 @@ municipios = {
 		},
 		"burgos": {
 			"name": "Burgos",
+			"capital": true,
 			"provincia": "Burgos",
 			"population": 174451,
 			"area": 107.062581,
@@ -17095,6 +17104,7 @@ municipios = {
 		},
 		"caceres": {
 			"name": "Cáceres",
+			"capital": true,
 			"provincia": "Cáceres",
 			"population": 96215,
 			"area": 1750.2291,
@@ -18917,6 +18927,7 @@ municipios = {
 		},
 		"cadiz": {
 			"name": "Cádiz",
+			"capital": true,
 			"provincia": "Cádiz",
 			"population": 111811,
 			"area": 12.300063,
@@ -19579,6 +19590,7 @@ municipios = {
 		},
 		"castellon de la plana": {
 			"name": "Castellón de la Plana/Castelló de la Plana",
+			"capital": true,
 			"provincia": "Castelló/Castellón",
 			"population": 176238,
 			"area": 111.3254,
@@ -20927,6 +20939,7 @@ municipios = {
 		},
 		"ciudad real": {
 			"name": "Ciudad Real",
+			"capital": true,
 			"provincia": "Ciudad Real",
 			"population": 75303,
 			"area": 285.1475,
@@ -21750,6 +21763,7 @@ municipios = {
 		},
 		"cordoba": {
 			"name": "Córdoba",
+			"capital": true,
 			"provincia": "Córdoba",
 			"population": 323763,
 			"area": 1254.6217,
@@ -22880,6 +22894,7 @@ municipios = {
 		},
 		"a coruna": {
 			"name": "A Coruña",
+			"capital": true,
 			"provincia": "A Coruña",
 			"population": 247376,
 			"area": 38.6396,
@@ -24853,6 +24868,7 @@ municipios = {
 		},
 		"cuenca": {
 			"name": "Cuenca",
+			"capital": true,
 			"provincia": "Cuenca",
 			"population": 53512,
 			"area": 910.8757,
@@ -27300,6 +27316,7 @@ municipios = {
 		},
 		"girona": {
 			"name": "Girona",
+			"capital": true,
 			"provincia": "Girona",
 			"population": 104320,
 			"area": 38.972581,
@@ -29633,6 +29650,7 @@ municipios = {
 		},
 		"granada": {
 			"name": "Granada",
+			"capital": true,
 			"provincia": "Granada",
 			"population": 230595,
 			"area": 88.11,
@@ -31521,6 +31539,7 @@ municipios = {
 		},
 		"guadalajara": {
 			"name": "Guadalajara",
+			"capital": true,
 			"provincia": "Guadalajara",
 			"population": 89010,
 			"area": 235.4864,
@@ -33843,6 +33862,7 @@ municipios = {
 		},
 		"san sebastian": {
 			"name": "Donostia/San Sebastián",
+			"capital": true,
 			"provincia": "Gipuzkoa",
 			"population": 188743,
 			"area": 60.889045,
@@ -34424,6 +34444,7 @@ municipios = {
 		},
 		"huelva": {
 			"name": "Huelva",
+			"capital": true,
 			"provincia": "Huelva",
 			"population": 142532,
 			"area": 151.6253,
@@ -35676,6 +35697,7 @@ municipios = {
 		},
 		"huesca": {
 			"name": "Huesca",
+			"capital": true,
 			"provincia": "Huesca",
 			"population": 54136,
 			"area": 161.043005,
@@ -37039,6 +37061,7 @@ municipios = {
 		},
 		"jaen": {
 			"name": "Jaén",
+			"capital": true,
 			"provincia": "Jaén",
 			"population": 111888,
 			"area": 424.2281,
@@ -38264,6 +38287,7 @@ municipios = {
 		},
 		"leon": {
 			"name": "León",
+			"capital": true,
 			"provincia": "León",
 			"population": 121281,
 			"area": 39.034554,
@@ -40377,6 +40401,7 @@ municipios = {
 		},
 		"lleida": {
 			"name": "Lleida",
+			"capital": true,
 			"provincia": "Lleida",
 			"population": 143094,
 			"area": 211.7877,
@@ -42374,6 +42399,7 @@ municipios = {
 		},
 		"logrono": {
 			"name": "Logroño",
+			"capital": true,
 			"provincia": "La Rioja",
 			"population": 150583,
 			"area": 78.9739,
@@ -43426,6 +43452,7 @@ municipios = {
 		},
 		"lugo": {
 			"name": "Lugo",
+			"capital": true,
 			"provincia": "Lugo",
 			"population": 98214,
 			"area": 329.776382,
@@ -44503,6 +44530,7 @@ municipios = {
 		"madrid": {
 			"name": "Madrid",
 			"provincia": "Madrid",
+			"capital": true,
 			"population": 3332035,
 			"area": 605.772354,
 			"paths": [
@@ -46046,6 +46074,7 @@ municipios = {
 		},
 		"malaga": {
 			"name": "Málaga",
+			"capital": true,
 			"provincia": "Málaga",
 			"population": 586384,
 			"area": 395.7069,
@@ -46716,6 +46745,7 @@ municipios = {
 		},
 		"murcia": {
 			"name": "Murcia",
+			"capital": true,
 			"provincia": "Murcia",
 			"population": 469177,
 			"area": 885.1149,
@@ -49177,6 +49207,7 @@ municipios = {
 		},
 		"pamplona": {
 			"name": "Pamplona/Iruña",
+			"capital": true,
 			"provincia": "Navarra",
 			"population": 205762,
 			"area": 25.1367,
@@ -50549,6 +50580,7 @@ municipios = {
 		},
 		"ourense": {
 			"name": "Ourense",
+			"capital": true,
 			"provincia": "Ourense",
 			"population": 104250,
 			"area": 84.7715,
@@ -51951,6 +51983,7 @@ municipios = {
 		},
 		"oviedo": {
 			"name": "Oviedo",
+			"capital": true,
 			"provincia": "Asturias",
 			"population": 217584,
 			"area": 186.651726,
@@ -53163,6 +53196,7 @@ municipios = {
 		},
 		"palencia": {
 			"name": "Palencia",
+			"capital": true,
 			"provincia": "Palencia",
 			"population": 76331,
 			"area": 95.209,
@@ -54269,6 +54303,7 @@ municipios = {
 		},
 		"las palmas de gran canaria": {
 			"name": "Las Palmas de Gran Canaria",
+			"capital": true,
 			"provincia": "Las Palmas",
 			"population": 378027,
 			"area": 103.3159,
@@ -55316,6 +55351,7 @@ municipios = {
 		},
 		"pontevedra": {
 			"name": "Pontevedra",
+			"capital": true,
 			"provincia": "Pontevedra",
 			"population": 82535,
 			"area": 118.4681,
@@ -58097,6 +58133,7 @@ municipios = {
 		},
 		"salamanca": {
 			"name": "Salamanca",
+			"capital": true,
 			"provincia": "Salamanca",
 			"population": 143954,
 			"area": 39.5596,
@@ -59851,6 +59888,7 @@ municipios = {
 		},
 		"santa cruz de tenerife": {
 			"name": "Santa Cruz de Tenerife",
+			"capital": true,
 			"provincia": "Santa Cruz de Tenerife",
 			"population": 209395,
 			"area": 150.4401,
@@ -61228,6 +61266,7 @@ municipios = {
 		},
 		"santander": {
 			"name": "Santander",
+			"capital": true,
 			"provincia": "Cantabria",
 			"population": 172726,
 			"area": 36.0829,
@@ -63050,6 +63089,7 @@ municipios = {
 		},
 		"segovia": {
 			"name": "Segovia",
+			"capital": true,
 			"provincia": "Segovia",
 			"population": 51011,
 			"area": 163.592016,
@@ -64240,6 +64280,7 @@ municipios = {
 		},
 		"sevilla": {
 			"name": "Sevilla",
+			"capital": true,
 			"provincia": "Sevilla",
 			"population": 684025,
 			"area": 142.0048,
@@ -65676,6 +65717,7 @@ municipios = {
 		},
 		"soria": {
 			"name": "Soria",
+			"capital": true,
 			"provincia": "Soria",
 			"population": 40096,
 			"area": 271.770537,
@@ -67391,6 +67433,7 @@ municipios = {
 		},
 		"tarragona": {
 			"name": "Tarragona",
+			"capital": true,
 			"provincia": "Tarragona",
 			"population": 138262,
 			"area": 58.838,
@@ -69478,6 +69521,7 @@ municipios = {
 		},
 		"teruel": {
 			"name": "Teruel",
+			"capital": true,
 			"provincia": "Teruel",
 			"population": 36267,
 			"area": 440.414455,
@@ -71410,6 +71454,7 @@ municipios = {
 		},
 		"toledo": {
 			"name": "Toledo",
+			"capital": true,
 			"provincia": "Toledo",
 			"population": 86070,
 			"area": 232.1396,
@@ -74238,6 +74283,7 @@ municipios = {
 		},
 		"valencia": {
 			"name": "València",
+			"capital": true,
 			"provincia": "València/Valencia",
 			"population": 807693,
 			"area": 139.3186,
@@ -76055,6 +76101,7 @@ municipios = {
 		},
 		"valladolid": {
 			"name": "Valladolid",
+			"capital": true,
 			"provincia": "Valladolid",
 			"population": 297459,
 			"area": 197.3739,
@@ -76634,6 +76681,7 @@ municipios = {
 		},
 		"bilbao": {
 			"name": "Bilbao",
+			"capital": true,
 			"provincia": "Bizkaia",
 			"population": 346096,
 			"area": 41.3426,
@@ -79724,6 +79772,7 @@ municipios = {
 		},
 		"zamora": {
 			"name": "Zamora",
+			"capital": true,
 			"provincia": "Zamora",
 			"population": 59259,
 			"area": 149.9235,
@@ -82350,6 +82399,7 @@ municipios = {
 		},
 		"zaragoza": {
 			"name": "Zaragoza",
+			"capital": true,
 			"provincia": "Zaragoza",
 			"population": 682513,
 			"area": 973.9974,
@@ -82399,6 +82449,7 @@ municipios = {
 		},
 		"ceuta": {
 			"name": "Ceuta",
+			"capital": true,
 			"provincia": "Ceuta",
 			"population": 83039,
 			"area": 19.87,
@@ -82410,6 +82461,7 @@ municipios = {
 		},
 		"melilla": {
 			"name": "Melilla",
+			"capital": true,
 			"provincia": "Melilla",
 			"population": 85491,
 			"area": 14.2428,

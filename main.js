@@ -91,7 +91,8 @@ function newStats() {
 		"bigMunicipios": 0,
 		"mediumMunicipios": 0,
 		"totalArea": 0,
-		"totalPopulation": 0
+		"totalPopulation": 0,
+		"capitals": 0
 	};
 }
 
@@ -107,6 +108,9 @@ function addMunicipioToStats(stats, municipio) {
 	}
 	stats.totalPopulation = stats.totalPopulation + municipio.population;
 	stats.totalArea = stats.totalArea + municipio.area;
+	if (municipio.capital) {
+		stats.capitals = stats.capitals + 1;
+	}
 	return stats;
 }
 
@@ -119,6 +123,7 @@ function drawStats() {
 	var totalPopulation = document.getElementById("totalPopulation");
 	var totalArea = document.getElementById("totalArea");
 	totalMunicipiosStat.innerHTML = beautifyNumber(stats.totalMunicipios) + " de " + beautifyNumber(totalStats.totalMunicipios) + " municipios encontrados";
+	capitals.innerHTML = beautifyNumber(stats.capitals) + " de " + beautifyNumber(totalStats.capitals) + " capitales";
 	bigMunicipiosStat.innerHTML = beautifyNumber(stats.bigMunicipios) + " de " + beautifyNumber(totalStats.bigMunicipios) + " con más de " + beautifyNumber(BIG_CITY_POPULATION) + " habitantes";
 	mediumMunicipiosStat.innerHTML = beautifyNumber(stats.mediumMunicipios) + " de " + beautifyNumber(totalStats.mediumMunicipios) + " con más de " + beautifyNumber(MEDIUM_CITY_POPULATION) + " habitantes";
 	totalArea.innerHTML = beautifyNumber(stats.totalArea) + " de " + beautifyNumber(totalStats.totalArea) + " km² cubiertos";
