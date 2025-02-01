@@ -79,7 +79,7 @@ function changeProvincia(newProvincia) {
 function calculateTotalStats() {
 	var totalStats = newStats();
 	for(var m in municipios[provincia]) {
-		if(!municipios[provincia][m].synonym && !municipios[provincia][m].skip)
+		if(!municipios[provincia][m].synonym)
 			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
 	}
 	return totalStats;
@@ -96,6 +96,8 @@ function newStats() {
 }
 
 function addMunicipioToStats(stats, municipio) {
+	if(municipio.skip)
+		return stats;
 	stats.totalMunicipios = stats.totalMunicipios + 1;
 	if (municipio.population > BIG_CITY_POPULATION) {
 		stats.bigMunicipios = stats.bigMunicipios + 1;
@@ -155,7 +157,7 @@ function loadState() {
 
 function calculateStats() {
 	var stats = newStats();
-	state[provincia].filter(m => !municipios[provincia][m].synonym)
+	state[provincia]
 	.forEach(m => {
 		addMunicipioToStats(stats, municipios[provincia][m]);
 	});
