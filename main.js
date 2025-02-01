@@ -59,6 +59,9 @@ function loadPage() {
 			selectMunicipio(municipios[provincia][guess]);
 			addMunicipioToList(municipios[provincia][guess].name);
 			drawStats();
+			rightGuessAnimation();
+		} else {
+			wrongGuessAnimation();
 		}
 		guess += '2';
 		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
@@ -68,6 +71,20 @@ function loadPage() {
 			drawStats();
 		}
 		municipioInput.value = "";
+	}
+	
+	function rightGuessAnimation() {
+		municipioInput.classList.add('animation-rightGuess');
+		setTimeout(() => {
+			municipioInput.classList.remove('animation-rightGuess')
+		}, 1000);
+	}
+
+	function wrongGuessAnimation() {
+		municipioInput.classList.add('animation-wrongGuess');
+		setTimeout(() => {
+			municipioInput.classList.remove('animation-wrongGuess')
+		}, 1000);
 	}
 }
 
