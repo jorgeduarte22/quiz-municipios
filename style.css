@@ -47,7 +47,7 @@ input:focus{
 }
 
 .selected {
-	fill: lightgreen !important;
+	fill: #4CBB17 !important;
 }
 
 .municipio {
