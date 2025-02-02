@@ -23,15 +23,18 @@ function loadPage() {
 	var sendButton = document.getElementById("sendButton");
 	var selectProvincia = document.getElementById("selectProvincia");
 	var selectSorting = document.getElementById("selectSorting");
+	var selectStatsProvincia = document.getElementById("selectStatsProvincia");
 	
 	provincia = selectProvincia.value;
 	sortingStrategy = selectSorting.value;
+	statsProvincia = selectStatsProvincia.value;
 
 	loadState();
-	clearMunicipiosList();
 	drawMap();
 	drawMunicipiosList();
 	drawStats();
+	
+	addProvinciasToSelect();
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -43,7 +46,7 @@ function loadPage() {
 	borrarButton.addEventListener("click", function(event) {
 		state[provincia].forEach(m => deselectMunicipio(municipios[provincia][m]));
 		clearState();
-		clearMunicipiosList();
+		drawMunicipiosList();
 		drawStats();
 	});
 
@@ -60,9 +63,17 @@ function loadPage() {
 		sortingStrategy = event.target.value;
 		drawMunicipiosList();
 	});
+	
+	selectStatsProvincia.addEventListener("change", function(event) {
+		statsProvincia = selectStatsProvincia.value;
+		drawStats();
+	});
 
 	function tryGuess() {
 		guess = removeDiacritics(municipioInput.value.toLowerCase().trimStart().trimEnd());
+		if (municipios[provincia][guess].synonym)
+			guess = municipios[provincia][guess].synonym
+		
 		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[provincia][guess]);
@@ -95,15 +106,26 @@ function loadPage() {
 			municipioInput.classList.remove('animation-wrongGuess')
 		}, 1000);
 	}
+
+	function addProvinciasToSelect() {
+		var provincias = [...new Set(Object.entries(municipios[provincia]).map(m => {
+					return m[1].provincia;
+				}
+			).sort())];
+
+		provincias.forEach(p => {
+			var option = document.createElement("option");
+			option.value = p;
+			option.innerHTML = p;
+			selectStatsProvincia.appendChild(option);
+		});
+	}
 }
 
-function calculateTotalStats() {
-	var totalStats = newStats();
-	for(var m in municipios[provincia]) {
-		if(!municipios[provincia][m].synonym)
-			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
-	}
-	return totalStats;
+function isRightProvincia(provincia) {
+	if (statsProvincia === 'all')
+		return true;
+	return statsProvincia === provincia;
 }
 
 function newStats() {
@@ -213,10 +235,22 @@ function loadState() {
 function calculateStats() {
 	var stats = newStats();
 	state[provincia]
+	.filter(m => {
+		return isRightProvincia(municipios[provincia][m].provincia)
+	})
 	.forEach(m => {
 		addMunicipioToStats(stats, municipios[provincia][m]);
 	});
 	return stats;
+}
+
+function calculateTotalStats() {
+	var totalStats = newStats();
+	for(var m in municipios[provincia]) {
+		if(isRightProvincia(municipios[provincia][m].provincia))
+			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
+	}
+	return totalStats;
 }
 
 function selectMunicipio(municipio) {

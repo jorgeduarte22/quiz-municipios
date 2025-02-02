@@ -1702,14 +1702,7 @@ municipios = {
 			]
 		},
 		"aiara": {
-			"name": "Ayala/Aiara",
-			"provincia": "Araba/Álava",
-			"population": 2918,
-			"area": 140.9694,
-			"paths": [
-				"OBJECTID_1149"
-			],
-			"synonym": true
+			"synonym": "ayala"
 		},
 		"banos de ebro": {
 			"name": "Baños de Ebro/Mañueta",
@@ -1721,14 +1714,7 @@ municipios = {
 			]
 		},
 		"manueta": {
-			"name": "Baños de Ebro/Mañueta",
-			"provincia": "Araba/Álava",
-			"population": 295,
-			"area": 9.5039,
-			"paths": [
-				"OBJECTID_1150"
-			],
-			"synonym": true
+			"synonym": "banos de ebro"
 		},
 		"barrundia": {
 			"name": "Barrundia",
@@ -1769,14 +1755,7 @@ municipios = {
 			]
 		},
 		"kanpezu": {
-			"name": "Campezo/Kanpezu",
-			"provincia": "Araba/Álava",
-			"population": 1072,
-			"area": 85.360875,
-			"paths": [
-				"OBJECTID_1154"
-			],
-			"synonym": true
+			"synonym": "campezo"
 		},
 		"zigoitia": {
 			"name": "Zigoitia",
@@ -1847,14 +1826,7 @@ municipios = {
 			]
 		},
 		"bilar": {
-			"name": "Elvillar/Bilar",
-			"provincia": "Araba/Álava",
-			"population": 313,
-			"area": 17.502228,
-			"paths": [
-				"OBJECTID_1160"
-			],
-			"synonym": true
+			"synonym": "elvillar"
 		},
 		"iruraiz gauna": {
 			"name": "Iruraiz-Gauna",
@@ -1881,14 +1853,7 @@ municipios = {
 			]
 		},
 		"bastida": {
-			"name": "Labastida/Bastida",
-			"provincia": "Araba/Álava",
-			"population": 1566,
-			"area": 38.1073,
-			"paths": [
-				"OBJECTID_1162"
-			],
-			"synonym": true
+			"synonym": "labastida"
 		},
 		"lagran": {
 			"name": "Lagrán",
@@ -1921,14 +1886,7 @@ municipios = {
 			]
 		},
 		"lantziego": {
-			"name": "Lanciego/Lantziego",
-			"provincia": "Araba/Álava",
-			"population": 708,
-			"area": 24.253,
-			"paths": [
-				"OBJECTID_1165"
-			],
-			"synonym": true
+			"synonym": "lanciego"
 		},
 		"lapuebla de labarca": {
 			"name": "Lapuebla de Labarca",
@@ -1958,14 +1916,7 @@ municipios = {
 			]
 		},
 		"llodio": {
-			"name": "Laudio/Llodio",
-			"provincia": "Araba/Álava",
-			"population": 17917,
-			"area": 37.7343,
-			"paths": [
-				"OBJECTID_1168"
-			],
-			"synonym": true
+			"synonym": "laudio"
 		},
 		"arraia maeztu": {
 			"name": "Arraia-Maeztu",
@@ -1986,14 +1937,7 @@ municipios = {
 			]
 		},
 		"moreda araba": {
-			"name": "Moreda de Álava/Moreda Araba",
-			"provincia": "Araba/Álava",
-			"population": 208,
-			"area": 8.671106,
-			"paths": [
-				"OBJECTID_1170"
-			],
-			"synonym": true
+			"synonym": "moreda de alava"
 		},
 		"navaridas": {
 			"name": "Navaridas",
@@ -2064,14 +2008,7 @@ municipios = {
 			]
 		},
 		"erriberabeitia": {
-			"name": "Ribera Baja/Erriberabeitia",
-			"provincia": "Araba/Álava",
-			"population": 1423,
-			"area": 25.3146,
-			"paths": [
-				"OBJECTID_1176"
-			],
-			"synonym": true
+			"synonym": "ribera baja"
 		},
 		"anana": {
 			"name": "Añana",
@@ -2157,14 +2094,7 @@ municipios = {
 			]
 		},
 		"gaubea": {
-			"name": "Valdegovía/Gaubea",
-			"provincia": "Araba/Álava",
-			"population": 1066,
-			"area": 238.2344,
-			"paths": [
-				"OBJECTID_1182"
-			],
-			"synonym": true
+			"synonym": "valdegovia"
 		},
 		"harana": {
 			"name": "Harana/Valle de Arana",
@@ -2176,14 +2106,7 @@ municipios = {
 			]
 		},
 		"valle de arana": {
-			"name": "Harana/Valle de Arana",
-			"provincia": "Araba/Álava",
-			"population": 219,
-			"area": 39.121857,
-			"paths": [
-				"OBJECTID_1183"
-			],
-			"synonym": true
+			"synonym": "harana"
 		},
 		"villabuena de alava": {
 			"name": "Villabuena de Álava/Eskuernaga",
@@ -2195,14 +2118,7 @@ municipios = {
 			]
 		},
 		"eskuernaga": {
-			"name": "Villabuena de Álava/Eskuernaga",
-			"provincia": "Araba/Álava",
-			"population": 285,
-			"area": 8.479289,
-			"paths": [
-				"OBJECTID_1184"
-			],
-			"synonym": true
+			"synonym": "villabuena de alava"
 		},
 		"legutio": {
 			"name": "Legutio",
@@ -2233,14 +2149,7 @@ municipios = {
 			]
 		},
 		"iekora": {
-			"name": "Yécora/Iekora",
-			"provincia": "Araba/Álava",
-			"population": 249,
-			"area": 18.802483,
-			"paths": [
-				"OBJECTID_1187"
-			],
-			"synonym": true
+			"synonym": "yecora"
 		},
 		"zalduondo": {
 			"name": "Zalduondo",
@@ -2279,14 +2188,7 @@ municipios = {
 			]
 		},
 		"iruna de oca": {
-			"name": "Iruña Oka/Iruña de Oca",
-			"provincia": "Araba/Álava",
-			"population": 3597,
-			"area": 53.235,
-			"paths": [
-				"OBJECTID_1191"
-			],
-			"synonym": true
+			"synonym": "iruna oka"
 		},
 		"lantaron": {
 			"name": "Lantarón",
@@ -3177,14 +3079,7 @@ municipios = {
 			]
 		},
 		"alcoy": {
-			"name": "Alcoi/Alcoy",
-			"provincia": "Alacant/Alicante",
-			"population": 59493,
-			"area": 129.860503,
-			"paths": [
-				"OBJECTID_3102"
-			],
-			"synonym": true
+			"synonym": "alcoi"
 		},
 		"alfafara": {
 			"name": "Alfafara",
@@ -3533,14 +3428,7 @@ municipios = {
 			]
 		},
 		"benitachell": {
-			"name": "el Poble Nou de Benitatxell/Benitachell",
-			"provincia": "Alacant/Alicante",
-			"population": 4858,
-			"area": 12.6888,
-			"paths": [
-				"OBJECTID_3434"
-			],
-			"synonym": true
+			"synonym": "el poble nou de benitatxell"
 		},
 		"biar": {
 			"name": "Biar",
@@ -3629,14 +3517,7 @@ municipios = {
 			]
 		},
 		"campo de mirra": {
-			"name": "el Camp de Mirra/Campo de Mirra",
-			"provincia": "Alacant/Alicante",
-			"population": 442,
-			"area": 21.815853,
-			"paths": [
-				"OBJECTID_3672"
-			],
-			"synonym": true
+			"synonym": "el camp de mirra"
 		},
 		"canada": {
 			"name": "Cañada",
@@ -3769,14 +3650,7 @@ municipios = {
 			]
 		},
 		"elche": {
-			"name": "Elx/Elche",
-			"provincia": "Alacant/Alicante",
-			"population": 238293,
-			"area": 326.5014,
-			"paths": [
-				"OBJECTID_4573"
-			],
-			"synonym": true
+			"synonym": "elx"
 		},
 		"elda": {
 			"name": "Elda",
@@ -3894,14 +3768,7 @@ municipios = {
 			]
 		},
 		"hondon de las nieves": {
-			"name": "el Fondó de les Neus/Hondón de las Nieves",
-			"provincia": "Alacant/Alicante",
-			"population": 2698,
-			"area": 68.851772,
-			"paths": [
-				"OBJECTID_4585"
-			],
-			"synonym": true
+			"synonym": "el fondo de les neus"
 		},
 		"hondon de los frailes": {
 			"name": "Hondón de los Frailes",
@@ -3983,14 +3850,7 @@ municipios = {
 			]
 		},
 		"jijona": {
-			"name": "Xixona/Jijona",
-			"provincia": "Alacant/Alicante",
-			"population": 7032,
-			"area": 163.760691,
-			"paths": [
-				"OBJECTID_4591"
-			],
-			"synonym": true
+			"synonym": "xixona"
 		},
 		"l orxa": {
 			"name": "l'Orxa/Lorcha",
@@ -4002,14 +3862,7 @@ municipios = {
 			]
 		},
 		"lorcha": {
-			"name": "l'Orxa/Lorcha",
-			"provincia": "Alacant/Alicante",
-			"population": 587,
-			"area": 31.764696,
-			"paths": [
-				"OBJECTID_4592"
-			],
-			"synonym": true
+			"synonym": "l orxa"
 		},
 		"lliber": {
 			"name": "Llíber",
@@ -4048,14 +3901,7 @@ municipios = {
 			]
 		},
 		"monovar": {
-			"name": "Monòver/Monóvar",
-			"provincia": "Alacant/Alicante",
-			"population": 12542,
-			"area": 152.356842,
-			"paths": [
-				"OBJECTID_4596"
-			],
-			"synonym": true
+			"synonym": "monover"
 		},
 		"mutxamel": {
 			"name": "Mutxamel",
@@ -4209,14 +4055,7 @@ municipios = {
 			]
 		},
 		"pinoso": {
-			"name": "el Pinós/Pinoso",
-			"provincia": "Alacant/Alicante",
-			"population": 8281,
-			"area": 126.4603,
-			"paths": [
-				"OBJECTID_4612"
-			],
-			"synonym": true
+			"synonym": "el pinos"
 		},
 		"planes": {
 			"name": "Planes",
@@ -4365,14 +4204,7 @@ municipios = {
 			]
 		},
 		"san vicente del raspeig": {
-			"name": "Sant Vicent del Raspeig/San Vicente del Raspeig",
-			"provincia": "Alacant/Alicante",
-			"population": 59928,
-			"area": 40.55084,
-			"paths": [
-				"OBJECTID_4628"
-			],
-			"synonym": true
+			"synonym": "sant vicent del raspeig"
 		},
 		"sax": {
 			"name": "Sax",
@@ -4460,14 +4292,7 @@ municipios = {
 			]
 		},
 		"torremanzanas": {
-			"name": "la Torre de les Maçanes/Torremanzanas",
-			"provincia": "Alacant/Alicante",
-			"population": 714,
-			"area": 36.479641,
-			"paths": [
-				"OBJECTID_4781"
-			],
-			"synonym": true
+			"synonym": "la torre de les macanes"
 		},
 		"torrevieja": {
 			"name": "Torrevieja",
@@ -4533,14 +4358,7 @@ municipios = {
 			]
 		},
 		"villajoyosa": {
-			"name": "la Vila Joiosa/Villajoyosa",
-			"provincia": "Alacant/Alicante",
-			"population": 36093,
-			"area": 58.888,
-			"paths": [
-				"OBJECTID_4788"
-			],
-			"synonym": true
+			"synonym": "la vila joiosa"
 		},
 		"villena": {
 			"name": "Villena",
@@ -19479,14 +19297,7 @@ municipios = {
 			]
 		},
 		"benicasim": {
-			"name": "Benicàssim/Benicasim",
-			"provincia": "Castelló/Castellón",
-			"population": 19951,
-			"area": 36.2914,
-			"paths": [
-				"OBJECTID_7979"
-			],
-			"synonym": true
+			"synonym": "benicassim"
 		},
 		"benlloc": {
 			"name": "Benlloc",
@@ -19516,14 +19327,7 @@ municipios = {
 			]
 		},
 		"burriana": {
-			"name": "Borriana/Burriana",
-			"provincia": "Castelló/Castellón",
-			"population": 35750,
-			"area": 46.8533,
-			"paths": [
-				"OBJECTID_2011"
-			],
-			"synonym": true
+			"synonym": "borriana"
 		},
 		"cabanes": {
 			"name": "Cabanes (Girona",
@@ -19759,14 +19563,7 @@ municipios = {
 			]
 		},
 		"xilxes": {
-			"name": "Chilches/Xilxes",
-			"provincia": "Castelló/Castellón",
-			"population": 2981,
-			"area": 13.580721,
-			"paths": [
-				"OBJECTID_7922"
-			],
-			"synonym": true
+			"synonym": "chilches"
 		},
 		"xodos": {
 			"name": "Xodos/Chodos",
@@ -19778,14 +19575,7 @@ municipios = {
 			]
 		},
 		"chodos": {
-			"name": "Xodos/Chodos",
-			"provincia": "Castelló/Castellón",
-			"population": 117,
-			"area": 44.265793,
-			"paths": [
-				"OBJECTID_7923"
-			],
-			"synonym": true
+			"synonym": "xodos"
 		},
 		"chovar": {
 			"name": "Chóvar",
@@ -19923,14 +19713,7 @@ municipios = {
 			]
 		},
 		"lucena del cid": {
-			"name": "Llucena/Lucena del Cid",
-			"provincia": "Castelló/Castellón",
-			"population": 1369,
-			"area": 137.035914,
-			"paths": [
-				"OBJECTID_7984"
-			],
-			"synonym": true
+			"synonym": "llucena"
 		},
 		"ludiente": {
 			"name": "Ludiente",
@@ -20050,14 +19833,7 @@ municipios = {
 			]
 		},
 		"oropesa del mar": {
-			"name": "Orpesa/Oropesa del Mar",
-			"provincia": "Castelló/Castellón",
-			"population": 10958,
-			"area": 26.5548,
-			"paths": [
-				"OBJECTID_2568"
-			],
-			"synonym": true
+			"synonym": "orpesa"
 		},
 		"palanques": {
 			"name": "Palanques",
@@ -20177,14 +19953,7 @@ municipios = {
 			]
 		},
 		"san jorge": {
-			"name": "Sant Jordi/San Jorge",
-			"provincia": "Castelló/Castellón",
-			"population": 1249,
-			"area": 36.494389,
-			"paths": [
-				"OBJECTID_2747"
-			],
-			"synonym": true
+			"synonym": "sant jordi"
 		},
 		"sant mateu": {
 			"name": "Sant Mateu",
@@ -20268,14 +20037,7 @@ municipios = {
 			]
 		},
 		"sueras": {
-			"name": "Suera/Sueras",
-			"provincia": "Castelló/Castellón",
-			"population": 572,
-			"area": 22.219871,
-			"paths": [
-				"OBJECTID_3070"
-			],
-			"synonym": true
+			"synonym": "suera"
 		},
 		"tales": {
 			"name": "Tales",
@@ -20404,14 +20166,7 @@ municipios = {
 			]
 		},
 		"useras": {
-			"name": "les Useres/Useras",
-			"provincia": "Castelló/Castellón",
-			"population": 985,
-			"area": 80.686203,
-			"paths": [
-				"OBJECTID_7989"
-			],
-			"synonym": true
+			"synonym": "les useres"
 		},
 		"vallat": {
 			"name": "Vallat",
@@ -20477,14 +20232,7 @@ municipios = {
 			]
 		},
 		"villafranca del cid": {
-			"name": "Vilafranca/Villafranca del Cid",
-			"provincia": "Castelló/Castellón",
-			"population": 2148,
-			"area": 93.5609,
-			"paths": [
-				"OBJECTID_7990"
-			],
-			"synonym": true
+			"synonym": "vilafranca"
 		},
 		"villahermosa del rio": {
 			"name": "Villahermosa del Río",
@@ -20613,14 +20361,7 @@ municipios = {
 			]
 		},
 		"alquerias del nino perdido": {
-			"name": "les Alqueries/Alquerías del Niño Perdido",
-			"provincia": "Castelló/Castellón",
-			"population": 4539,
-			"area": 12.7444,
-			"paths": [
-				"OBJECTID_7466"
-			],
-			"synonym": true
+			"synonym": "les alqueries"
 		},
 		"sant joan de moro": {
 			"name": "Sant Joan de Moró",
@@ -33708,14 +33449,7 @@ municipios = {
 			]
 		},
 		"mondragon": {
-			"name": "Arrasate/Mondragón",
-			"provincia": "Gipuzkoa",
-			"population": 21867,
-			"area": 32.9836,
-			"paths": [
-				"OBJECTID_1260"
-			],
-			"synonym": true
+			"synonym": "arrasate"
 		},
 		"mutriku": {
 			"name": "Mutriku",
@@ -46952,14 +46686,7 @@ municipios = {
 			]
 		},
 		"abartzuza": {
-			"name": "Abárzuza/Abartzuza",
-			"provincia": "Navarra",
-			"population": 514,
-			"area": 23.022522,
-			"paths": [
-				"OBJECTID_637"
-			],
-			"synonym": true
+			"synonym": "abarzuza"
 		},
 		"abaurregaina": {
 			"name": "Abaurregaina/Abaurrea Alta",
@@ -46971,14 +46698,7 @@ municipios = {
 			]
 		},
 		"abaurrea alta": {
-			"name": "Abaurregaina/Abaurrea Alta",
-			"provincia": "Navarra",
-			"population": 115,
-			"area": 21.358103,
-			"paths": [
-				"OBJECTID_638"
-			],
-			"synonym": true
+			"synonym": "abaurregaina"
 		},
 		"abaurrepea": {
 			"name": "Abaurrepea/Abaurrea Baja",
@@ -46990,14 +46710,7 @@ municipios = {
 			]
 		},
 		"abaurrea baja": {
-			"name": "Abaurrepea/Abaurrea Baja",
-			"provincia": "Navarra",
-			"population": 29,
-			"area": 10.889317,
-			"paths": [
-				"OBJECTID_639"
-			],
-			"synonym": true
+			"synonym": "abaurrepea"
 		},
 		"aberin": {
 			"name": "Aberin",
@@ -47045,14 +46758,7 @@ municipios = {
 			]
 		},
 		"oibar": {
-			"name": "Aibar/Oibar",
-			"provincia": "Navarra",
-			"population": 769,
-			"area": 47.707875,
-			"paths": [
-				"OBJECTID_644"
-			],
-			"synonym": true
+			"synonym": "aibar"
 		},
 		"altsasu": {
 			"name": "Altsasu/Alsasua",
@@ -47064,14 +46770,7 @@ municipios = {
 			]
 		},
 		"alsasua": {
-			"name": "Altsasu/Alsasua",
-			"provincia": "Navarra",
-			"population": 7590,
-			"area": 26.723478,
-			"paths": [
-				"OBJECTID_645"
-			],
-			"synonym": true
+			"synonym": "altsasu"
 		},
 		"allin": {
 			"name": "Allín/Allin",
@@ -47110,14 +46809,7 @@ municipios = {
 			]
 		},
 		"antzin": {
-			"name": "Ancín/Antzin",
-			"provincia": "Navarra",
-			"population": 343,
-			"area": 9.478588,
-			"paths": [
-				"OBJECTID_649"
-			],
-			"synonym": true
+			"synonym": "ancin"
 		},
 		"andosilla": {
 			"name": "Andosilla",
@@ -47138,14 +46830,7 @@ municipios = {
 			]
 		},
 		"antsoain": {
-			"name": "Ansoáin/Antsoain",
-			"provincia": "Navarra",
-			"population": 10608,
-			"area": 1.927923,
-			"paths": [
-				"OBJECTID_651"
-			],
-			"synonym": true
+			"synonym": "ansoain"
 		},
 		"anue": {
 			"name": "Anue",
@@ -47175,14 +46860,7 @@ municipios = {
 			]
 		},
 		"agoitz": {
-			"name": "Aoiz/Agoitz",
-			"provincia": "Navarra",
-			"population": 2970,
-			"area": 13.544819,
-			"paths": [
-				"OBJECTID_658"
-			],
-			"synonym": true
+			"synonym": "aoiz"
 		},
 		"araitz": {
 			"name": "Araitz",
@@ -47203,14 +46881,7 @@ municipios = {
 			]
 		},
 		"aranaratxe": {
-			"name": "Aranarache/Aranaratxe",
-			"provincia": "Navarra",
-			"population": 70,
-			"area": 3.746959,
-			"paths": [
-				"OBJECTID_660"
-			],
-			"synonym": true
+			"synonym": "aranarache"
 		},
 		"arantza": {
 			"name": "Arantza",
@@ -47276,14 +46947,7 @@ municipios = {
 			]
 		},
 		"artzi": {
-			"name": "Arce/Artzi",
-			"provincia": "Navarra",
-			"population": 296,
-			"area": 145.6911,
-			"paths": [
-				"OBJECTID_670"
-			],
-			"synonym": true
+			"synonym": "arce"
 		},
 		"los arcos": {
 			"name": "Los Arcos",
@@ -47394,14 +47058,7 @@ municipios = {
 			]
 		},
 		"atetz": {
-			"name": "Atez/Atetz",
-			"provincia": "Navarra",
-			"population": 214,
-			"area": 26.330197,
-			"paths": [
-				"OBJECTID_683"
-			],
-			"synonym": true
+			"synonym": "atez"
 		},
 		"ayegui": {
 			"name": "Ayegui/Aiegi",
@@ -47413,14 +47070,7 @@ municipios = {
 			]
 		},
 		"aiegi": {
-			"name": "Ayegui/Aiegi",
-			"provincia": "Navarra",
-			"population": 2531,
-			"area": 9.613967,
-			"paths": [
-				"OBJECTID_685"
-			],
-			"synonym": true
+			"synonym": "ayegui"
 		},
 		"azagra": {
 			"name": "Azagra",
@@ -47576,14 +47226,7 @@ municipios = {
 			]
 		},
 		"burguete": {
-			"name": "Auritz/Burguete",
-			"provincia": "Navarra",
-			"population": 233,
-			"area": 19.189503,
-			"paths": [
-				"OBJECTID_702"
-			],
-			"synonym": true
+			"synonym": "auritz"
 		},
 		"burgui": {
 			"name": "Burgui/Burgi",
@@ -47595,14 +47238,7 @@ municipios = {
 			]
 		},
 		"burgi": {
-			"name": "Burgui/Burgi",
-			"provincia": "Navarra",
-			"population": 195,
-			"area": 64.329348,
-			"paths": [
-				"OBJECTID_703"
-			],
-			"synonym": true
+			"synonym": "burgui"
 		},
 		"burlada": {
 			"name": "Burlada/Burlata",
@@ -47614,14 +47250,7 @@ municipios = {
 			]
 		},
 		"burlata": {
-			"name": "Burlada/Burlata",
-			"provincia": "Navarra",
-			"population": 20865,
-			"area": 2.1131,
-			"paths": [
-				"OBJECTID_704"
-			],
-			"synonym": true
+			"synonym": "burlada"
 		},
 		"el busto": {
 			"name": "El Busto",
@@ -47744,14 +47373,7 @@ municipios = {
 			]
 		},
 		"zirauki": {
-			"name": "Cirauqui/Zirauki",
-			"provincia": "Navarra",
-			"population": 467,
-			"area": 41.468663,
-			"paths": [
-				"OBJECTID_724"
-			],
-			"synonym": true
+			"synonym": "cirauqui"
 		},
 		"ciriza": {
 			"name": "Ciriza/Ziritza",
@@ -47763,14 +47385,7 @@ municipios = {
 			]
 		},
 		"ziritza": {
-			"name": "Ciriza/Ziritza",
-			"provincia": "Navarra",
-			"population": 158,
-			"area": 4.363986,
-			"paths": [
-				"OBJECTID_725"
-			],
-			"synonym": true
+			"synonym": "ciriza"
 		},
 		"cizur": {
 			"name": "Cizur",
@@ -47847,14 +47462,7 @@ municipios = {
 			]
 		},
 		"etxarri": {
-			"name": "Echarri/Etxarri",
-			"provincia": "Navarra",
-			"population": 75,
-			"area": 2.290525,
-			"paths": [
-				"OBJECTID_733"
-			],
-			"synonym": true
+			"synonym": "echarri"
 		},
 		"etxarri aranatz": {
 			"name": "Etxarri Aranatz",
@@ -47884,14 +47492,7 @@ municipios = {
 			]
 		},
 		"eguesibar": {
-			"name": "Valle de Egüés/Eguesibar",
-			"provincia": "Navarra",
-			"population": 22121,
-			"area": 53.2632,
-			"paths": [
-				"OBJECTID_739"
-			],
-			"synonym": true
+			"synonym": "valle de egues"
 		},
 		"elgorriaga": {
 			"name": "Elgorriaga",
@@ -47912,14 +47513,7 @@ municipios = {
 			]
 		},
 		"noain (elortzibar)": {
-			"name": "Noáin (Valle de Elorz)/Noain (Elortzibar)",
-			"provincia": "Navarra",
-			"population": 8429,
-			"area": 48.154544,
-			"paths": [
-				"OBJECTID_745"
-			],
-			"synonym": true
+			"synonym": "noain (valle de elorz)"
 		},
 		"eneriz": {
 			"name": "Enériz/Eneritz",
@@ -47931,14 +47525,7 @@ municipios = {
 			]
 		},
 		"eneritz": {
-			"name": "Enériz/Eneritz",
-			"provincia": "Navarra",
-			"population": 301,
-			"area": 9.548129,
-			"paths": [
-				"OBJECTID_746"
-			],
-			"synonym": true
+			"synonym": "eneriz"
 		},
 		"eratsun": {
 			"name": "Eratsun",
@@ -47979,14 +47566,7 @@ municipios = {
 			]
 		},
 		"ezkaroze": {
-			"name": "Ezcároz/Ezkaroze",
-			"provincia": "Navarra",
-			"population": 299,
-			"area": 28.792384,
-			"paths": [
-				"OBJECTID_754"
-			],
-			"synonym": true
+			"synonym": "ezcaroz"
 		},
 		"eslava": {
 			"name": "Eslava",
@@ -48007,14 +47587,7 @@ municipios = {
 			]
 		},
 		"espartza zaraitzu": {
-			"name": "Esparza de Salazar/Espartza Zaraitzu",
-			"provincia": "Navarra",
-			"population": 74,
-			"area": 26.461833,
-			"paths": [
-				"OBJECTID_922"
-			],
-			"synonym": true
+			"synonym": "esparza de salazar"
 		},
 		"espronceda": {
 			"name": "Espronceda",
@@ -48152,14 +47725,7 @@ municipios = {
 			]
 		},
 		"galipentzu": {
-			"name": "Gallipienzo/Galipentzu",
-			"provincia": "Navarra",
-			"population": 96,
-			"area": 56.451204,
-			"paths": [
-				"OBJECTID_941"
-			],
-			"synonym": true
+			"synonym": "gallipienzo"
 		},
 		"gallues": {
 			"name": "Gallués/Galoze",
@@ -48171,14 +47737,7 @@ municipios = {
 			]
 		},
 		"galoze": {
-			"name": "Gallués/Galoze",
-			"provincia": "Navarra",
-			"population": 93,
-			"area": 42.995938,
-			"paths": [
-				"OBJECTID_943"
-			],
-			"synonym": true
+			"synonym": "gallues"
 		},
 		"garaioa": {
 			"name": "Garaioa",
@@ -48253,14 +47812,7 @@ municipios = {
 			]
 		},
 		"gorza": {
-			"name": "Güesa/Gorza",
-			"provincia": "Navarra",
-			"population": 37,
-			"area": 26.590762,
-			"paths": [
-				"OBJECTID_953"
-			],
-			"synonym": true
+			"synonym": "guesa"
 		},
 		"guesalaz": {
 			"name": "Guesálaz/Gesalatz",
@@ -48302,14 +47854,7 @@ municipios = {
 			]
 		},
 		"uharte": {
-			"name": "Huarte/Uharte",
-			"provincia": "Navarra",
-			"population": 7562,
-			"area": 3.8621,
-			"paths": [
-				"OBJECTID_957"
-			],
-			"synonym": true
+			"synonym": "huarte"
 		},
 		"uharte arakil": {
 			"name": "Uharte Arakil",
@@ -48368,14 +47913,7 @@ municipios = {
 			]
 		},
 		"izaba": {
-			"name": "Isaba/Izaba",
-			"provincia": "Navarra",
-			"population": 404,
-			"area": 147.2977,
-			"paths": [
-				"OBJECTID_963"
-			],
-			"synonym": true
+			"synonym": "isaba"
 		},
 		"ituren": {
 			"name": "Ituren",
@@ -48405,14 +47943,7 @@ municipios = {
 			]
 		},
 		"itza": {
-			"name": "Iza/Itza",
-			"provincia": "Navarra",
-			"population": 1330,
-			"area": 51.492684,
-			"paths": [
-				"OBJECTID_966"
-			],
-			"synonym": true
+			"synonym": "iza"
 		},
 		"izagaondoa": {
 			"name": "Izagaondoa",
@@ -48433,14 +47964,7 @@ municipios = {
 			]
 		},
 		"itzaltzu": {
-			"name": "Izalzu/Itzaltzu",
-			"provincia": "Navarra",
-			"population": 38,
-			"area": 7.44556,
-			"paths": [
-				"OBJECTID_968"
-			],
-			"synonym": true
+			"synonym": "izalzu"
 		},
 		"jaurrieta": {
 			"name": "Jaurrieta",
@@ -48472,14 +47996,7 @@ municipios = {
 			]
 		},
 		"txulapain": {
-			"name": "Juslapeña/Txulapain",
-			"provincia": "Navarra",
-			"population": 564,
-			"area": 31.51161,
-			"paths": [
-				"OBJECTID_971"
-			],
-			"synonym": true
+			"synonym": "juslapena"
 		},
 		"beintza labaien": {
 			"name": "Beintza-Labaien",
@@ -48574,14 +48091,7 @@ municipios = {
 			]
 		},
 		"leatxe": {
-			"name": "Leache/Leatxe",
-			"provincia": "Navarra",
-			"population": 37,
-			"area": 14.632724,
-			"paths": [
-				"OBJECTID_981"
-			],
-			"synonym": true
+			"synonym": "leache"
 		},
 		"legarda": {
 			"name": "Legarda",
@@ -48620,14 +48130,7 @@ municipios = {
 			]
 		},
 		"leotz": {
-			"name": "Leoz/Leotz",
-			"provincia": "Navarra",
-			"population": 211,
-			"area": 95.502197,
-			"paths": [
-				"OBJECTID_985"
-			],
-			"synonym": true
+			"synonym": "leoz"
 		},
 		"lerga": {
 			"name": "Lerga",
@@ -48684,14 +48187,7 @@ municipios = {
 			]
 		},
 		"lizoainibar arriasgoiti": {
-			"name": "Lizoain-Arriasgoiti/Lizoainibar-Arriasgoiti",
-			"provincia": "Navarra",
-			"population": 303,
-			"area": 65.4404,
-			"paths": [
-				"OBJECTID_991"
-			],
-			"synonym": true
+			"synonym": "lizoain arriasgoiti"
 		},
 		"lodosa": {
 			"name": "Lodosa",
@@ -48712,14 +48208,7 @@ municipios = {
 			]
 		},
 		"longida": {
-			"name": "Lónguida/Longida",
-			"provincia": "Navarra",
-			"population": 309,
-			"area": 90.7479,
-			"paths": [
-				"OBJECTID_993"
-			],
-			"synonym": true
+			"synonym": "longuida"
 		},
 		"lumbier": {
 			"name": "Lumbier",
@@ -48854,14 +48343,7 @@ municipios = {
 			]
 		},
 		"elo": {
-			"name": "Monreal/Elo",
-			"provincia": "Navarra",
-			"population": 503,
-			"area": 22.606127,
-			"paths": [
-				"OBJECTID_1011"
-			],
-			"synonym": true
+			"synonym": "monreal"
 		},
 		"monteagudo": {
 			"name": "Monteagudo",
@@ -48945,14 +48427,7 @@ municipios = {
 			]
 		},
 		"nabaskoze": {
-			"name": "Navascués/Nabaskoze",
-			"provincia": "Navarra",
-			"population": 121,
-			"area": 95.924479,
-			"paths": [
-				"OBJECTID_1021"
-			],
-			"synonym": true
+			"synonym": "navascues"
 		},
 		"nazar": {
 			"name": "Nazar",
@@ -48991,14 +48466,7 @@ municipios = {
 			]
 		},
 		"otsagabia": {
-			"name": "Ochagavía/Otsagabia",
-			"provincia": "Navarra",
-			"population": 490,
-			"area": 129.160395,
-			"paths": [
-				"OBJECTID_1025"
-			],
-			"synonym": true
+			"synonym": "ochagavia"
 		},
 		"odieta": {
 			"name": "Odieta",
@@ -49037,14 +48505,7 @@ municipios = {
 			]
 		},
 		"olazagutia": {
-			"name": "Olazti/Olazagutía",
-			"provincia": "Navarra",
-			"population": 1483,
-			"area": 19.186601,
-			"paths": [
-				"OBJECTID_1029"
-			],
-			"synonym": true
+			"synonym": "olazti"
 		},
 		"olejua": {
 			"name": "Olejua",
@@ -49065,14 +48526,7 @@ municipios = {
 			]
 		},
 		"erriberri": {
-			"name": "Olite/Erriberri",
-			"provincia": "Navarra",
-			"population": 4019,
-			"area": 84.1471,
-			"paths": [
-				"OBJECTID_1031"
-			],
-			"synonym": true
+			"synonym": "olite"
 		},
 		"oloriz": {
 			"name": "Olóriz/Oloritz",
@@ -49084,14 +48538,7 @@ municipios = {
 			]
 		},
 		"oloritz": {
-			"name": "Olóriz/Oloritz",
-			"provincia": "Navarra",
-			"population": 221,
-			"area": 40.721289,
-			"paths": [
-				"OBJECTID_1032"
-			],
-			"synonym": true
+			"synonym": "oloriz"
 		},
 		"cendea de olza": {
 			"name": "Cendea de Olza/Oltza Zendea",
@@ -49103,14 +48550,7 @@ municipios = {
 			]
 		},
 		"oltza zendea": {
-			"name": "Cendea de Olza/Oltza Zendea",
-			"provincia": "Navarra",
-			"population": 1836,
-			"area": 41.252647,
-			"paths": [
-				"OBJECTID_1033"
-			],
-			"synonym": true
+			"synonym": "cendea de olza"
 		},
 		"valle de ollo": {
 			"name": "Valle de Ollo/Ollaran",
@@ -49122,14 +48562,7 @@ municipios = {
 			]
 		},
 		"ollaran": {
-			"name": "Valle de Ollo/Ollaran",
-			"provincia": "Navarra",
-			"population": 435,
-			"area": 37.221056,
-			"paths": [
-				"OBJECTID_1034"
-			],
-			"synonym": true
+			"synonym": "valle de ollo"
 		},
 		"orbaizeta": {
 			"name": "Orbaizeta",
@@ -49168,14 +48601,7 @@ municipios = {
 			]
 		},
 		"orontze": {
-			"name": "Oronz/Orontze",
-			"provincia": "Navarra",
-			"population": 47,
-			"area": 11.541222,
-			"paths": [
-				"OBJECTID_1039"
-			],
-			"synonym": true
+			"synonym": "oronz"
 		},
 		"oroz betelu": {
 			"name": "Oroz-Betelu/Orotz-Betelu",
@@ -49187,14 +48613,7 @@ municipios = {
 			]
 		},
 		"orotz betelu": {
-			"name": "Oroz-Betelu/Orotz-Betelu",
-			"provincia": "Navarra",
-			"population": 145,
-			"area": 23.9124,
-			"paths": [
-				"OBJECTID_1040"
-			],
-			"synonym": true
+			"synonym": "oroz betelu"
 		},
 		"oteiza": {
 			"name": "Oteiza",
@@ -49235,14 +48654,7 @@ municipios = {
 			]
 		},
 		"azkoien": {
-			"name": "Peralta/Azkoien",
-			"provincia": "Navarra",
-			"population": 5979,
-			"area": 88.3574,
-			"paths": [
-				"OBJECTID_1043"
-			],
-			"synonym": true
+			"synonym": "peralta"
 		},
 		"petilla de aragon": {
 			"name": "Petilla de Aragón",
@@ -49285,14 +48697,7 @@ municipios = {
 			]
 		},
 		"gares": {
-			"name": "Puente la Reina/Gares",
-			"provincia": "Navarra",
-			"population": 2944,
-			"area": 39.707085,
-			"paths": [
-				"OBJECTID_1047"
-			],
-			"synonym": true
+			"synonym": "puente la reina"
 		},
 		"pueyo": {
 			"name": "Pueyo/Puiu",
@@ -49304,14 +48709,7 @@ municipios = {
 			]
 		},
 		"puiu": {
-			"name": "Pueyo/Puiu",
-			"provincia": "Navarra",
-			"population": 346,
-			"area": 21.039437,
-			"paths": [
-				"OBJECTID_1048"
-			],
-			"synonym": true
+			"synonym": "pueyo"
 		},
 		"ribaforada": {
 			"name": "Ribaforada",
@@ -49332,14 +48730,7 @@ municipios = {
 			]
 		},
 		"erromantzatua": {
-			"name": "Romanzado/Erromantzatua",
-			"provincia": "Navarra",
-			"population": 188,
-			"area": 91.440685,
-			"paths": [
-				"OBJECTID_1051"
-			],
-			"synonym": true
+			"synonym": "romanzado"
 		},
 		"roncal": {
 			"name": "Roncal/Erronkari",
@@ -49351,14 +48742,7 @@ municipios = {
 			]
 		},
 		"erronkari": {
-			"name": "Roncal/Erronkari",
-			"provincia": "Navarra",
-			"population": 209,
-			"area": 38.979673,
-			"paths": [
-				"OBJECTID_1052"
-			],
-			"synonym": true
+			"synonym": "roncal"
 		},
 		"orreaga": {
 			"name": "Orreaga/Roncesvalles",
@@ -49370,14 +48754,7 @@ municipios = {
 			]
 		},
 		"roncesvalles": {
-			"name": "Orreaga/Roncesvalles",
-			"provincia": "Navarra",
-			"population": 19,
-			"area": 15.279169,
-			"paths": [
-				"OBJECTID_1053"
-			],
-			"synonym": true
+			"synonym": "orreaga"
 		},
 		"saldias": {
 			"name": "Saldías",
@@ -49398,14 +48775,7 @@ municipios = {
 			]
 		},
 		"jaitz": {
-			"name": "Salinas de Oro/Jaitz",
-			"provincia": "Navarra",
-			"population": 109,
-			"area": 13.866807,
-			"paths": [
-				"OBJECTID_1056"
-			],
-			"synonym": true
+			"synonym": "salinas de oro"
 		},
 		"san adrian": {
 			"name": "San Adrián",
@@ -49426,14 +48796,7 @@ municipios = {
 			]
 		},
 		"zangoza": {
-			"name": "Sangüesa/Zangoza",
-			"provincia": "Navarra",
-			"population": 4814,
-			"area": 68.029085,
-			"paths": [
-				"OBJECTID_1058"
-			],
-			"synonym": true
+			"synonym": "sanguesa"
 		},
 		"san martin de unx": {
 			"name": "San Martín de Unx",
@@ -49472,14 +48835,7 @@ municipios = {
 			]
 		},
 		"santesteban": {
-			"name": "Doneztebe/Santesteban",
-			"provincia": "Navarra",
-			"population": 1858,
-			"area": 8.687287,
-			"paths": [
-				"OBJECTID_1062"
-			],
-			"synonym": true
+			"synonym": "doneztebe"
 		},
 		"sarries": {
 			"name": "Sarriés/Sartze",
@@ -49491,14 +48847,7 @@ municipios = {
 			]
 		},
 		"sartze": {
-			"name": "Sarriés/Sartze",
-			"provincia": "Navarra",
-			"population": 62,
-			"area": 22.950712,
-			"paths": [
-				"OBJECTID_1063"
-			],
-			"synonym": true
+			"synonym": "sarries"
 		},
 		"sartaguda": {
 			"name": "Sartaguda",
@@ -49618,14 +48967,7 @@ municipios = {
 			]
 		},
 		"uxue": {
-			"name": "Ujué/Uxue",
-			"provincia": "Navarra",
-			"population": 171,
-			"area": 112.11813,
-			"paths": [
-				"OBJECTID_1077"
-			],
-			"synonym": true
+			"synonym": "ujue"
 		},
 		"ultzama": {
 			"name": "Ultzama",
@@ -49657,14 +48999,7 @@ municipios = {
 			]
 		},
 		"untzue": {
-			"name": "Unzué/Untzue",
-			"provincia": "Navarra",
-			"population": 158,
-			"area": 18.878719,
-			"paths": [
-				"OBJECTID_1080"
-			],
-			"synonym": true
+			"synonym": "unzue"
 		},
 		"urdazubi": {
 			"name": "Urdazubi/Urdax",
@@ -49676,14 +49011,7 @@ municipios = {
 			]
 		},
 		"urdax": {
-			"name": "Urdazubi/Urdax",
-			"provincia": "Navarra",
-			"population": 362,
-			"area": 7.750263,
-			"paths": [
-				"OBJECTID_1081"
-			],
-			"synonym": true
+			"synonym": "urdazubi"
 		},
 		"urdiain": {
 			"name": "Urdiain",
@@ -49742,14 +49070,7 @@ municipios = {
 			]
 		},
 		"urzainki": {
-			"name": "Urzainqui/Urzainki",
-			"provincia": "Navarra",
-			"population": 79,
-			"area": 20.916265,
-			"paths": [
-				"OBJECTID_1087"
-			],
-			"synonym": true
+			"synonym": "urzainqui"
 		},
 		"uterga": {
 			"name": "Uterga",
@@ -49770,14 +49091,7 @@ municipios = {
 			]
 		},
 		"uztarroze": {
-			"name": "Uztárroz/Uztarroze",
-			"provincia": "Navarra",
-			"population": 139,
-			"area": 58.344188,
-			"paths": [
-				"OBJECTID_1089"
-			],
-			"synonym": true
+			"synonym": "uztarroz"
 		},
 		"luzaide": {
 			"name": "Luzaide/Valcarlos",
@@ -49789,14 +49103,7 @@ municipios = {
 			]
 		},
 		"valcarlos": {
-			"name": "Luzaide/Valcarlos",
-			"provincia": "Navarra",
-			"population": 304,
-			"area": 44.895249,
-			"paths": [
-				"OBJECTID_1090"
-			],
-			"synonym": true
+			"synonym": "luzaide"
 		},
 		"valtierra": {
 			"name": "Valtierra",
@@ -49837,14 +49144,7 @@ municipios = {
 			]
 		},
 		"bidankoze": {
-			"name": "Vidángoz/Bidankoze",
-			"provincia": "Navarra",
-			"population": 75,
-			"area": 39.700716,
-			"paths": [
-				"OBJECTID_1095"
-			],
-			"synonym": true
+			"synonym": "vidangoz"
 		},
 		"bidaurreta": {
 			"name": "Bidaurreta",
@@ -49885,14 +49185,7 @@ municipios = {
 			]
 		},
 		"villanueva de aezkoa": {
-			"name": "Hiriberri/Villanueva de Aezkoa",
-			"provincia": "Navarra",
-			"population": 101,
-			"area": 21.644348,
-			"paths": [
-				"OBJECTID_1099"
-			],
-			"synonym": true
+			"synonym": "hiriberri"
 		},
 		"villatuerta": {
 			"name": "Villatuerta",
@@ -49913,14 +49206,7 @@ municipios = {
 			]
 		},
 		"atarrabia": {
-			"name": "Villava/Atarrabia",
-			"provincia": "Navarra",
-			"population": 10067,
-			"area": 1.059386,
-			"paths": [
-				"OBJECTID_1101"
-			],
-			"synonym": true
+			"synonym": "villava"
 		},
 		"igantzi": {
 			"name": "Igantzi",
@@ -49971,14 +49257,7 @@ municipios = {
 			]
 		},
 		"zabaltza": {
-			"name": "Zabalza/Zabaltza",
-			"provincia": "Navarra",
-			"population": 289,
-			"area": 14.037884,
-			"paths": [
-				"OBJECTID_1105"
-			],
-			"synonym": true
+			"synonym": "zabalza"
 		},
 		"zubieta": {
 			"name": "Zubieta",
@@ -50026,14 +49305,7 @@ municipios = {
 			]
 		},
 		"berriobeiti": {
-			"name": "Berrioplano/Berriobeiti",
-			"provincia": "Navarra",
-			"population": 7541,
-			"area": 26.1334,
-			"paths": [
-				"OBJECTID_1111"
-			],
-			"synonym": true
+			"synonym": "berrioplano"
 		},
 		"berriozar": {
 			"name": "Berriozar",
@@ -50081,14 +49353,7 @@ municipios = {
 			]
 		},
 		"zizur nagusia": {
-			"name": "Zizur Mayor/Zizur Nagusia",
-			"provincia": "Navarra",
-			"population": 15715,
-			"area": 5.053658,
-			"paths": [
-				"OBJECTID_1116"
-			],
-			"synonym": true
+			"synonym": "zizur mayor"
 		},
 		"lekunberri": {
 			"name": "Lekunberri",
@@ -71917,14 +71182,7 @@ municipios = {
 			]
 		},
 		"alboraya": {
-			"name": "Alboraia/Alboraya",
-			"provincia": "València/Valencia",
-			"population": 25792,
-			"area": 8.3525,
-			"paths": [
-				"OBJECTID_635"
-			],
-			"synonym": true
+			"synonym": "alboraia"
 		},
 		"albuixech": {
 			"name": "Albuixech",
@@ -73496,14 +72754,7 @@ municipios = {
 			]
 		},
 		"mogente": {
-			"name": "Moixent/Mogente",
-			"provincia": "València/Valencia",
-			"population": 4383,
-			"area": 149.6003,
-			"paths": [
-				"OBJECTID_8002"
-			],
-			"synonym": true
+			"synonym": "moixent"
 		},
 		"moncada": {
 			"name": "Moncada",
@@ -73551,14 +72802,7 @@ municipios = {
 			]
 		},
 		"montichelvo": {
-			"name": "Montitxelvo/Montichelvo",
-			"provincia": "València/Valencia",
-			"population": 558,
-			"area": 8.164822,
-			"paths": [
-				"OBJECTID_7605"
-			],
-			"synonym": true
+			"synonym": "montitxelvo"
 		},
 		"montroi": {
 			"name": "Montroi/Montroy",
@@ -73570,14 +72814,7 @@ municipios = {
 			]
 		},
 		"montroy": {
-			"name": "Montroi/Montroy",
-			"provincia": "València/Valencia",
-			"population": 3295,
-			"area": 31.390543,
-			"paths": [
-				"OBJECTID_7606"
-			],
-			"synonym": true
+			"synonym": "montroi"
 		},
 		"museros": {
 			"name": "Museros",
@@ -74009,14 +73246,7 @@ municipios = {
 			]
 		},
 		"sagunto": {
-			"name": "Sagunt/Sagunto",
-			"provincia": "València/Valencia",
-			"population": 70128,
-			"area": 133.9275,
-			"paths": [
-				"OBJECTID_6025"
-			],
-			"synonym": true
+			"synonym": "sagunt"
 		},
 		"salem": {
 			"name": "Salem",
@@ -74350,14 +73580,7 @@ municipios = {
 			]
 		},
 		"villalonga": {
-			"name": "Vilallonga/Villalonga",
-			"provincia": "València/Valencia",
-			"population": 4667,
-			"area": 43.2885,
-			"paths": [
-				"OBJECTID_7638"
-			],
-			"synonym": true
+			"synonym": "vilallonga"
 		},
 		"vilamarxant": {
 			"name": "Vilamarxant",
@@ -76708,14 +75931,7 @@ municipios = {
 			]
 		},
 		"valle de carranza": {
-			"name": "Karrantza Harana/Valle de Carranza",
-			"provincia": "Bizkaia",
-			"population": 2713,
-			"area": 137.8243,
-			"paths": [
-				"OBJECTID_1332"
-			],
-			"synonym": true
+			"synonym": "karrantza harana"
 		},
 		"artea": {
 			"name": "Artea",
@@ -77201,14 +76417,7 @@ municipios = {
 			]
 		},
 		"orduna": {
-			"name": "Urduña/Orduña",
-			"provincia": "Bizkaia",
-			"population": 4179,
-			"area": 33.398,
-			"paths": [
-				"OBJECTID_1432"
-			],
-			"synonym": true
+			"synonym": "urduna"
 		},
 		"orozko": {
 			"name": "Orozko",
