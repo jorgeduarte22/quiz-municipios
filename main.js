@@ -21,6 +21,8 @@ function loadPage() {
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
 	var selectProvincia = document.getElementById("selectProvincia");
+	var sortingDropdown = document.getElementById("sortingDropdown");
+	var sortingIcon = document.getElementById("sortingIcon");
 	
 	provincia = selectProvincia.value;
 
@@ -50,6 +52,14 @@ function loadPage() {
 	selectProvincia.addEventListener("change", function(event) {
 		console.log(event);
 		changeProvincia(event.target.value);
+	});
+
+	sortingIcon.addEventListener("click", function(event) {
+		console.log('CLICK');
+		if(sortingDropdown.classList.contains('hidden'))
+			sortingDropdown.classList.remove('hidden');
+		else
+			sortingDropdown.classList.add('hidden');
 	});
 
 	function tryGuess() {

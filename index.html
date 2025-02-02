@@ -6,6 +6,7 @@
 		<script type="text/javascript" src="map.js"></script>
 		<script type="text/javascript" src="municipios.js"></script>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sort" />
 		<title>Quiz Municipios</title>
 	</head>
 	<body>
@@ -29,7 +30,22 @@
 		<div class="map" id="mapSvg">Loading...</div>
 		<div class="cardsWrapper">
 			<div class="card">
-				<h2>Municipios</h2>
+				<div class="municipiosHeader">
+					<h2>Municipios</h2>
+					<div class="sorting">
+						<button id="sortingIcon" class="sortingIcon">
+							<span class="material-symbols-outlined">sort</span>
+						</button>
+						<div id="sortingDropdown" class="sortingDropdown hidden">
+							<a class="sortingDropdownOption">Orden (Ascendente)</a>
+							<a class="sortingDropdownOption">Orden (Descendente)</a>
+							<a class="sortingDropdownOption">Población (Ascendente)</a>
+							<a class="sortingDropdownOption">Población (Descendente)</a>
+							<a class="sortingDropdownOption">Área (Ascendente)</a>
+							<a class="sortingDropdownOption">Área (Descendente)</a>
+						</div>
+					</div>
+				</div>
 				<ol id="municipiosList" type="1"></ol>
 			</div>
 			<div class="card">
