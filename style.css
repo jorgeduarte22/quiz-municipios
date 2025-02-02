@@ -48,12 +48,12 @@ input:focus{
 
 @keyframes wrongGuess {
 	50% {border-color: red}
-	50% {box-shadow: 0 0 3px 2px red}
+	50% {box-shadow: 0 0 5px 3px red}
 }
 
 @keyframes rightGuess {
 	50% {border-color: green}
-	50% {box-shadow: 0 0 3px 2px green}
+	50% {box-shadow: 0 0 5px 3px green}
 }
 
 .animation-wrongGuess {
