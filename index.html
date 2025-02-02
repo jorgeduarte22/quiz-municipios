@@ -32,20 +32,15 @@
 			<div class="card">
 				<div class="municipiosHeader">
 					<h2>Municipios</h2>
-					<div class="sorting">
-						<button id="sortingIcon" class="sortingIcon">
-							<span class="material-symbols-outlined">sort</span>
-						</button>
-						<div id="sortingDropdown" class="sortingDropdown hidden">
-							<a class="sortingDropdownOption">Orden (Ascendente)</a>
-							<a class="sortingDropdownOption">Orden (Descendente)</a>
-							<a class="sortingDropdownOption">Población (Ascendente)</a>
-							<a class="sortingDropdownOption">Población (Descendente)</a>
-							<a class="sortingDropdownOption">Área (Ascendente)</a>
-							<a class="sortingDropdownOption">Área (Descendente)</a>
-						</div>
-					</div>
 				</div>
+				<select id="selectSorting" class="selectSorting">
+					<option value="order-desc">Orden (Descendente)</option>
+					<option value="order-asc">Orden (Ascendente)</option>
+					<option value="population-desc">Población (Descendente)</option>
+					<option value="population-asc">Población (Ascendente)</option>
+					<option value="area-desc">Área (Descendente)</option>
+					<option value="area-asc">Área (Ascendente)</option>
+				</select>
 				<ol id="municipiosList" type="1"></ol>
 			</div>
 			<div class="card">

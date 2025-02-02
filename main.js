@@ -11,6 +11,7 @@ const INITIAL_STATE = {
 
 var state = INITIAL_STATE;
 var provincia;
+var sortingStrategy;
 
 window.onload = (event) => {
 	loadPage();
@@ -21,14 +22,15 @@ function loadPage() {
 	var borrarButton = document.getElementById("borrarButton");
 	var sendButton = document.getElementById("sendButton");
 	var selectProvincia = document.getElementById("selectProvincia");
-	var sortingDropdown = document.getElementById("sortingDropdown");
-	var sortingIcon = document.getElementById("sortingIcon");
+	var selectSorting = document.getElementById("selectSorting");
 	
 	provincia = selectProvincia.value;
+	sortingStrategy = selectSorting.value;
 
 	loadState();
 	clearMunicipiosList();
 	drawMap();
+	drawMunicipiosList();
 	drawStats();
 
 	municipioInput.addEventListener("keypress", function(event) {
@@ -50,16 +52,13 @@ function loadPage() {
 	});
 
 	selectProvincia.addEventListener("change", function(event) {
-		console.log(event);
-		changeProvincia(event.target.value);
+		provincia = event.target.value;
+		loadPage();
 	});
 
-	sortingIcon.addEventListener("click", function(event) {
-		console.log('CLICK');
-		if(sortingDropdown.classList.contains('hidden'))
-			sortingDropdown.classList.remove('hidden');
-		else
-			sortingDropdown.classList.add('hidden');
+	selectSorting.addEventListener("change", function(event) {
+		sortingStrategy = event.target.value;
+		drawMunicipiosList();
 	});
 
 	function tryGuess() {
@@ -67,7 +66,7 @@ function loadPage() {
 		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[provincia][guess]);
-			addMunicipioToList(municipios[provincia][guess].name);
+			drawMunicipiosList();
 			drawStats();
 			rightGuessAnimation();
 		} else {
@@ -77,7 +76,7 @@ function loadPage() {
 		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
 			addMunicipioToState(guess)
 			selectMunicipio(municipios[provincia][guess]);
-			addMunicipioToList(municipios[provincia][guess].name);
+			drawMunicipiosList()
 			drawStats();
 		}
 		municipioInput.value = "";
@@ -96,11 +95,6 @@ function loadPage() {
 			municipioInput.classList.remove('animation-wrongGuess')
 		}, 1000);
 	}
-}
-
-function changeProvincia(newProvincia) {
-	provincia = newProvincia;
-	loadPage();
 }
 
 function calculateTotalStats() {
@@ -165,8 +159,37 @@ function drawMap() {
 	document.getElementById('mapSvg').innerHTML = mapSvg[provincia];
 	state[provincia].forEach(m => {
 		selectMunicipio(municipios[provincia][m]);
-		addMunicipioToList(municipios[provincia][m].name);
 	});
+}
+
+function drawMunicipiosList() {
+	clearMunicipiosList();
+	getSortedMunicipios().forEach(m => {
+		addMunicipioToList(m.name, m.extraInfo);
+	});
+}
+
+function getSortedMunicipios() {
+	if (sortingStrategy === 'order-asc')
+		return state[provincia]
+			.map(m => {return {name: municipios[provincia][m].name}})
+	if (sortingStrategy === 'population-asc')
+		return state[provincia]
+			.toSorted((a, b) => municipios[provincia][a].population > municipios[provincia][b].population)
+			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].population}})
+	if (sortingStrategy === 'population-desc')
+		return state[provincia]
+			.toSorted((a, b) => municipios[provincia][a].population < municipios[provincia][b].population)
+			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].population}})
+	if (sortingStrategy === 'area-asc')
+		return state[provincia]
+			.toSorted((a, b) => municipios[provincia][a].area > municipios[provincia][b].area)
+			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].area}})
+	if (sortingStrategy === 'area-desc')
+		return state[provincia]
+			.toSorted((a, b) => municipios[provincia][a].area < municipios[provincia][b].area)
+			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].area}})
+	return state[provincia].toReversed().map(m => {return {name: municipios[provincia][m].name}})
 }
 
 function loadState() {
@@ -224,11 +247,11 @@ function saveState() {
 	document.cookie = JSON.stringify(state);
 }
 
-function addMunicipioToList(name) {
+function addMunicipioToList(name, extraInfo) {
 	var municipiosList = document.getElementById("municipiosList");
 	var li = document.createElement("li");
 	li.classList.add("listItem");
-	li.innerHTML = name;
+	li.innerHTML = name + (extraInfo ? ' <em>(' + beautifyNumber(extraInfo) + ')</em>' : '');
 	municipiosList.appendChild(li);
 }
 
