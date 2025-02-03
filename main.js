@@ -207,19 +207,19 @@ function getSortedMunicipios() {
 			.map(m => {return {name: municipios[provincia][m].name}})
 	if (sortingStrategy === 'population-asc')
 		return state[provincia]
-			.toSorted((a, b) => municipios[provincia][a].population > municipios[provincia][b].population)
+			.toSorted((a, b) => municipios[provincia][a].population - municipios[provincia][b].population)
 			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].population}})
 	if (sortingStrategy === 'population-desc')
 		return state[provincia]
-			.toSorted((a, b) => municipios[provincia][a].population < municipios[provincia][b].population)
+			.toSorted((a, b) => municipios[provincia][b].population - municipios[provincia][a].population)
 			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].population}})
 	if (sortingStrategy === 'area-asc')
 		return state[provincia]
-			.toSorted((a, b) => municipios[provincia][a].area > municipios[provincia][b].area)
+			.toSorted((a, b) => municipios[provincia][a].area - municipios[provincia][b].area)
 			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].area}})
 	if (sortingStrategy === 'area-desc')
 		return state[provincia]
-			.toSorted((a, b) => municipios[provincia][a].area < municipios[provincia][b].area)
+			.toSorted((a, b) => municipios[provincia][b].area - municipios[provincia][a].area)
 			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].area}})
 	return state[provincia].toReversed().map(m => {return {name: municipios[provincia][m].name}})
 }
