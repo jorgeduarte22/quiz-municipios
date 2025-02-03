@@ -225,9 +225,9 @@ function getSortedMunicipios() {
 }
 
 function loadState() {
-	if(document.cookie) {
+	if(localStorage.state) {
 		try {
-			state = JSON.parse(document.cookie);
+			state = JSON.parse(localStorage.state);
 			// Add missing keys (can happen when adding new provincias)
 			Object.keys(INITIAL_STATE).forEach(k => {
 					if (!state[k])
@@ -235,7 +235,7 @@ function loadState() {
 				}
 			);
 		} catch (e) {
-			console.log("Error while loading state from cookie", e);
+			console.log("Error while loading state from local storage", e);
 			state = INITIAL_STATE;
 		}
 	}
@@ -282,7 +282,7 @@ function clearState() {
 }
 
 function saveState() {
-	document.cookie = JSON.stringify(state);
+	localStorage.state = JSON.stringify(state);
 }
 
 function addMunicipioToList(name, extraInfo) {
