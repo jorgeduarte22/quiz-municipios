@@ -169,7 +169,7 @@ municipios = {
 			"name": "Molina de Segura"
 		},
 		"moratalla": {
-			"population": 71890,
+			"population": 7189,
 			"area": 169.5,
 			"paths": ["path8"],
 			"name": "Moratalla"
