@@ -8733,7 +8733,10 @@ municipios = {
 			"population": 738,
 			"area": 141.89777,
 			"paths": [
-				"OBJECTID_7618"
+				"OBJECTID_6010",
+		"path3805",
+		"path3806",
+	
 			]
 		},
 		"sancti spiritus2": {
@@ -8742,10 +8745,7 @@ municipios = {
 			"population": 154,
 			"area": 33.562775,
 			"paths": [
-				"OBJECTID_6010",
-		"path3805",
-		"path3806",
-	
+				"OBJECTID_7618"
 			]
 		},
 		"san pedro de merida": {
