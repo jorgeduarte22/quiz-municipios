@@ -190,6 +190,10 @@ function drawMap() {
 	});
 }
 
+function getSynonym(municipio) {
+	return municipios[provincia][municipio].synonym || municipio
+}
+
 function drawMunicipiosList() {
 	clearMunicipiosList();
 	getSortedMunicipios().forEach(m => {
@@ -235,6 +239,13 @@ function loadState() {
 			state = INITIAL_STATE;
 		}
 	}
+
+	// TODO: For retrocompatibility. Delete at some point
+	state.spain = state.spain
+		.map(m => {
+			return getSynonym(m)
+		});
+
 	saveState();
 }
 
