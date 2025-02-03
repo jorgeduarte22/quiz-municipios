@@ -32,9 +32,8 @@ function loadPage() {
 	loadState();
 	drawMap();
 	drawMunicipiosList();
-	drawStats();
-	
 	addProvinciasToSelect();
+	drawStats();
 
 	municipioInput.addEventListener("keypress", function(event) {
 		if (event.key === "Enter") {
@@ -71,7 +70,7 @@ function loadPage() {
 
 	function tryGuess() {
 		guess = removeDiacritics(municipioInput.value.toLowerCase().trimStart().trimEnd());
-		if (municipios[provincia][guess].synonym)
+		if(municipios[provincia][guess] && municipios[provincia][guess].synonym)
 			guess = municipios[provincia][guess].synonym
 		
 		if(municipios[provincia][guess] && !state[provincia].includes(guess)) {
@@ -111,7 +110,14 @@ function loadPage() {
 		var provincias = [...new Set(Object.entries(municipios[provincia]).map(m => {
 					return m[1].provincia;
 				}
-			).sort())];
+			).filter(m => m).sort())];
+		
+		selectStatsProvincia.innerHTML = '';
+
+		var option = document.createElement("option");
+		option.value = 'all';
+		option.innerHTML = 'Todas las provincias';
+		selectStatsProvincia.appendChild(option);
 
 		provincias.forEach(p => {
 			var option = document.createElement("option");
@@ -119,6 +125,8 @@ function loadPage() {
 			option.innerHTML = p;
 			selectStatsProvincia.appendChild(option);
 		});
+		
+		statsProvincia = selectStatsProvincia.value;
 	}
 }
 
@@ -158,8 +166,8 @@ function addMunicipioToStats(stats, municipio) {
 }
 
 function drawStats() {
-	var stats = calculateStats();
-	var totalStats = calculateTotalStats();
+	var stats = calculateStats(state[provincia]);
+	var totalStats = calculateStats(Object.keys(municipios[provincia]));
 	var totalMunicipiosStat = document.getElementById("numberOfMunicipios");
 	var bigMunicipiosStat = document.getElementById("numberOfBigMunicipios");
 	var mediumMunicipiosStat = document.getElementById("numberOfMediumMunicipios");
@@ -232,9 +240,12 @@ function loadState() {
 	saveState();
 }
 
-function calculateStats() {
+function calculateStats(municipiosList) {
 	var stats = newStats();
-	state[provincia]
+	municipiosList
+	.filter(m => {
+		return !municipios[provincia][m].synonym
+	})
 	.filter(m => {
 		return isRightProvincia(municipios[provincia][m].provincia)
 	})
@@ -242,15 +253,6 @@ function calculateStats() {
 		addMunicipioToStats(stats, municipios[provincia][m]);
 	});
 	return stats;
-}
-
-function calculateTotalStats() {
-	var totalStats = newStats();
-	for(var m in municipios[provincia]) {
-		if(isRightProvincia(municipios[provincia][m].provincia))
-			totalStats = addMunicipioToStats(totalStats, municipios[provincia][m]);
-	}
-	return totalStats;
 }
 
 function selectMunicipio(municipio) {
