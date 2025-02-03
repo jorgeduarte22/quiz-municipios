@@ -43,10 +43,8 @@ function loadPage() {
 	});
 
 	borrarButton.addEventListener("click", function(event) {
-		state[provincia].forEach(m => deselectMunicipio(municipios[provincia][m]));
 		clearState();
-		drawMunicipiosList();
-		drawStats();
+		loadPage();
 	});
 
 	sendButton.addEventListener("click", function(event) {
