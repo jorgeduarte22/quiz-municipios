@@ -260,13 +260,6 @@ function selectMunicipio(municipio) {
 	});
 }
 
-function deselectMunicipio(municipio) {
-	municipio.paths.forEach(pathId => {
-		var path = document.getElementById(pathId);
-		path.classList.remove("selected");
-	});
-}
-
 function addMunicipioToState(id) {
 	state[provincia].push(id);
 	saveState();
