@@ -1796,16 +1796,7 @@ municipios = {
 			]
 		},
 		"burgelu": {
-			"name": "Elburgo/Burgelu",
-			"provincia": "Araba/Álava",
-			"population": 638,
-			"area": 32.1004,
-			"paths": [
-				"OBJECTID_1158",
-		"path1438",
-	
-			],
-			"synonym": true
+			"synonym": "elburgo"
 		},
 		"elciego": {
 			"name": "Elciego",
@@ -1987,16 +1978,7 @@ municipios = {
 			]
 		},
 		"ribera alta": {
-			"name": "Erriberagoitia/Ribera Alta",
-			"provincia": "Araba/Álava",
-			"population": 828,
-			"area": 119.8185,
-			"paths": [
-				"OBJECTID_1175",
-		"path1446",
-	
-			],
-			"synonym": true
+			"synonym": "erriberagoitia"
 		},
 		"ribera baja": {
 			"name": "Ribera Baja/Erriberabeitia",
@@ -2031,16 +2013,7 @@ municipios = {
 			]
 		},
 		"salvatierra": {
-			"name": "Agurain/Salvatierra",
-			"provincia": "Araba/Álava",
-			"population": 5085,
-			"area": 37.769884,
-			"paths": [
-				"OBJECTID_1178",
-		"path1447",
-	
-			],
-			"synonym": true
+			"synonym": "agurain"
 		},
 		"samaniego": {
 			"name": "Samaniego",
@@ -2064,16 +2037,7 @@ municipios = {
 			]
 		},
 		"donemiliaga": {
-			"name": "San Millán/Donemiliaga",
-			"provincia": "Araba/Álava",
-			"population": 726,
-			"area": 85.3921,
-			"paths": [
-				"OBJECTID_1180",
-		"path1448",
-		"path1449",
-			],
-			"synonym": true
+			"synonym": "san millan"
 		},
 		"urkabustaiz": {
 			"name": "Urkabustaiz",
@@ -3119,6 +3083,7 @@ municipios = {
 		},
 		"alacant": {
 			"name": "Alacant/Alicante",
+			"capital": true,
 			"provincia": "Alacant/Alicante",
 			"population": 349282,
 			"area": 202.5549,
@@ -3140,27 +3105,7 @@ municipios = {
 			]
 		},
 		"alicante": {
-			"name": "Alacant/Alicante",
-			"capital": true,
-			"provincia": "Alacant/Alicante",
-			"population": 349282,
-			"area": 202.5549,
-			"paths": [
-				"OBJECTID_3107",
-		"path2341",
-		"path2342",
-		"path2343",
-		"path2344",
-		"path2345",
-		"path2346",
-		"path2347",
-		"path2348",
-		"path2349",
-		"path2350",
-		"path2351",
-		"path2352",
-			],
-			"synonym": true
+			"synonym": "alacant"
 		},
 		"almoradi": {
 			"name": "Almoradí",
@@ -3824,21 +3769,7 @@ municipios = {
 			]
 		},
 		"javea": {
-			"name": "Xàbia/Jávea",
-			"provincia": "Alacant/Alicante",
-			"population": 29760,
-			"area": 68.9138,
-			"paths": [
-				"OBJECTID_4590",
-		"path3685",
-		"path3686",
-		"path3687",
-		"path3688",
-		"path3689",
-		"path3690",
-		"path3691",
-			],
-			"synonym": true
+			"synonym": "xabia"
 		},
 		"xixona": {
 			"name": "Xixona/Jijona",
@@ -19424,35 +19355,7 @@ municipios = {
 	]
 		},
 		"castello de la plana": {
-			"name": "Castellón de la Plana/Castelló de la Plana",
-			"provincia": "Castelló/Castellón",
-			"population": 176238,
-			"area": 111.3254,
-			"paths": [
-		"OBJECTID_7906",
-		"path4408",
-		"path4409",
-		"path4410",
-		"path4411",
-		"path4412",
-		"path4413",
-		"path4414",
-		"path4415",
-		"path4416",
-		"path4417",
-		"path4418",
-		"path4419",
-		"path4420",
-		"path4421",
-		"path4422",
-		"path4423",
-		"path4424",
-		"path4425",
-		"path4426",
-		"path4427",
-		"path4428",
-			],
-			"synonym": true
+			"synonym": "castellon de la plana"
 		},
 		"castillo de villamalefa": {
 			"name": "Castillo de Villamalefa",
@@ -33580,6 +33483,7 @@ municipios = {
 		},
 		"donostia": {
 			"name": "Donostia/San Sebastián",
+			"capital": true,
 			"provincia": "Gipuzkoa",
 			"population": 188743,
 			"area": 60.889045,
@@ -33595,21 +33499,7 @@ municipios = {
 			]
 		},
 		"san sebastian": {
-			"name": "Donostia/San Sebastián",
-			"capital": true,
-			"provincia": "Gipuzkoa",
-			"population": 188743,
-			"area": 60.889045,
-			"paths": [
-				"OBJECTID_1274",
-		"path1469",
-		"path1470",
-		"path1471",
-		"path1472",
-		"path1473",
-		"path1474",
-			],
-			"synonym": true
+			"synonym": "donostia"
 		},
 		"segura": {
 			"name": "Segura",
@@ -47826,14 +47716,7 @@ municipios = {
 			]
 		},
 		"gesalatz": {
-			"name": "Guesálaz/Gesalatz",
-			"provincia": "Navarra",
-			"population": 431,
-			"area": 77.033767,
-			"paths": [
-				"OBJECTID_954"
-			],
-			"synonym": true
+			"synonym": "guesalaz"
 		},
 		"guirguillano": {
 			"name": "Guirguillano",
@@ -48635,14 +48518,7 @@ municipios = {
 			]
 		},
 		"iruna": {
-			"name": "Pamplona/Iruña",
-			"provincia": "Navarra",
-			"population": 205762,
-			"area": 25.1367,
-			"paths": [
-				"OBJECTID_1042"
-			],
-			"synonym": true
+			"synonym": "iruna"
 		},
 		"peralta": {
 			"name": "Peralta/Azkoien",
@@ -49229,14 +49105,7 @@ municipios = {
 			]
 		},
 		"deierri": {
-			"name": "Valle de Yerri/Deierri",
-			"provincia": "Navarra",
-			"population": 1581,
-			"area": 252.607348,
-			"paths": [
-				"OBJECTID_1103"
-			],
-			"synonym": true
+			"synonym": "valle de yerri"
 		},
 		"yesa": {
 			"name": "Yesa",
@@ -72856,17 +72725,7 @@ municipios = {
 			]
 		},
 		"novetle": {
-			"name": "Novelé/Novetlè",
-			"provincia": "València/Valencia",
-			"population": 856,
-			"area": 1.471685,
-			"paths": [
-				"OBJECTID_7611",
-		"path4026",
-		"path4027",
-	
-			],
-			"synonym": true
+			"synonym": "novele"
 		},
 		"oliva": {
 			"name": "Oliva",
