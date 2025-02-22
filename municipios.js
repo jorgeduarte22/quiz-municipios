@@ -184,7 +184,8 @@ municipios = {
 			"population": 453258,
 			"area": 886,
 			"paths": ["path108", "path188"],
-			"name": "Murcia"
+			"name": "Murcia",
+			"capital": true
 		},
 		"ojos": {
 			"population": 500,
@@ -744,7 +745,8 @@ municipios = {
 			"population": 3332035,
 			"area": 605.77,
 			"paths": ["path400"],
-			"name": "Madrid"
+			"name": "Madrid",
+			"capital": true
 		},
 		"majadahonda": {
 			"population": 72548,
@@ -1423,6 +1425,7 @@ municipios = {
 		"cadiz": {
 			"paths": ["path120"],
 			"name": "Cádiz",
+			"capital": true,
 			"population": 113066,
 			"area": 12.30
 		},
