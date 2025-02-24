@@ -48521,7 +48521,7 @@ municipios = {
 			]
 		},
 		"iruna": {
-			"synonym": "iruna"
+			"synonym": "pamplona"
 		},
 		"peralta": {
 			"name": "Peralta/Azkoien",
