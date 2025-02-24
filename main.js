@@ -30,6 +30,7 @@ function loadPage() {
 	statsProvincia = selectStatsProvincia.value;
 
 	loadState();
+	if(state.spain.indexOf('iruna') != -1) state.spain.splice(state.spain.indexOf('iruna'), 1)
 	drawMap();
 	drawMunicipiosList();
 	addProvinciasToSelect();
