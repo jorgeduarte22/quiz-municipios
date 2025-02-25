@@ -143,7 +143,7 @@ function addSentryTag(value, name) {
 
 function addSentryGlobalTags() {
 	addSentryTag("provincia", provincia);
-	addSentryTag("state", state);
+	addSentryTag("state", JSON.stringify(state));
 }
 
 function isRightProvincia(provincia) {
