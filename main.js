@@ -31,6 +31,7 @@ function loadPage() {
 
 	loadState();
 	fixState();
+	addSentryGlobalTags();
 	drawMap();
 	drawMunicipiosList();
 	addProvinciasToSelect();
@@ -68,6 +69,7 @@ function loadPage() {
 	});
 
 	function tryGuess() {
+		addSentryTag("guess", provincia);
 		guess = removeDiacritics(municipioInput.value.toLowerCase().trimStart().trimEnd());
 		if(municipios[provincia][guess] && municipios[provincia][guess].synonym)
 			guess = municipios[provincia][guess].synonym
@@ -127,6 +129,17 @@ function loadPage() {
 		
 		statsProvincia = selectStatsProvincia.value;
 	}
+}
+
+function addSentryTag(value, name) {
+	if(window.Sentry) {
+		Sentry.setTag(value, name);
+	}
+}
+
+function addSentryGlobalTags() {
+	addSentryTag("provincia", provincia);
+	addSentryTag("state", state);
 }
 
 function isRightProvincia(provincia) {
