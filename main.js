@@ -30,7 +30,7 @@ function loadPage() {
 	statsProvincia = selectStatsProvincia.value;
 
 	loadState();
-	if(state.spain.indexOf('iruna') != -1) state.spain.splice(state.spain.indexOf('iruna'), 1)
+	fixState();
 	drawMap();
 	drawMunicipiosList();
 	addProvinciasToSelect();
@@ -219,6 +219,13 @@ function getSortedMunicipios() {
 			.toSorted((a, b) => municipios[provincia][b].area - municipios[provincia][a].area)
 			.map(m => {return {name: municipios[provincia][m].name, extraInfo: municipios[provincia][m].area}})
 	return state[provincia].toReversed().map(m => {return {name: municipios[provincia][m].name}})
+}
+
+function fixState() {
+	//Fix for bug with synonym
+	if(state.spain.indexOf('iruna') != -1) {
+		state.spain.splice(state.spain.indexOf('iruna'), 1);
+	}
 }
 
 function loadState() {
