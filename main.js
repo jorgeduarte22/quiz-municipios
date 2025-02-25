@@ -132,8 +132,12 @@ function loadPage() {
 }
 
 function addSentryTag(value, name) {
-	if(window.Sentry) {
-		Sentry.setTag(value, name);
+	try {	
+		if(window.Sentry) {
+			Sentry.setTag(value, name);
+		}
+	} catch (error) {
+	  console.error(error);
 	}
 }
 
